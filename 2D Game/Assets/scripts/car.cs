@@ -55,9 +55,9 @@ public class Car : MonoBehaviour
      //顏色 Color
      public Color Color1;             // 不指定為黑
      public Color red = Color.red;    //使用預設值
-     public Color yello = Color.yello;
+     public Color yello = Color.yellow;
      public Color ColorCustom1 = new Color(0.5f,0.5f,0); //自訂顏色(RGB)
-     public Color ColorCustom2 = new Color(0.5f,0.,0.5f,0); //自訂顏色(RGB)
+     public Color ColorCustom2 = new Color(0.5f,0,0.5f,0); //自訂顏色(RGB)
 
      //座標 2-4 維 Vector2-4
      //保持數值資訊 浮點數
@@ -66,20 +66,21 @@ public class Car : MonoBehaviour
      public Vector2 v2one = Vector2.one;
      public Vector2 v2Up = Vector2.up;
      public Vector2 v2Right = Vector2.right;
-     public Vector2 v2Costum = new Vector2(-99.5f,100.5f)
+     public Vector2 v2Costum = new Vector2(-99.5f, 100.5f);
 
-
+     public Vector3 v3;
+     public Vector4 v4;
 
      //按鍵類型
-     public Keycode kc;
-     public Keycode forwar = Keycode.D;
-     public Keycode attack = Keycode.Mouse0; //左鍵0 右鍵1 滾輪2
+     public KeyCode kc;
+     public KeyCode forwar = KeyCode.D;
+     public KeyCode attack = KeyCode.Mouse0; //左鍵0 右鍵1 滾輪2
 
      //遊戲物件與元件
      public GameObject goCamera; //遊戲物件包含場景上的以及專案內的預製物
      //元件僅限於存放屬性面板有此元件的物件
 
-     public Transfrom tracCar;
+     public Transform tracCar;
      public SpriteRenderer sprPicture;
 
 
@@ -91,9 +92,26 @@ public class Car : MonoBehaviour
      {
         //輸出(任何類型資料);
         print("你好");
-     }
 
-   
 
-     #endregion 
+        //練習取得欄位 Get
+
+        print(brand);
+
+        //練習取得欄位 Set
+        windowSky = true;
+        cc = 5000;
+        weight = 9.9f;
+
+
+    }
+
+
+    //更新事件:大概一秒60次.60fps.處理物件移動或是監聽玩家輸入
+    private void Update()
+    {
+        print("我要黃金");
+    }
+
+    #endregion
 }
