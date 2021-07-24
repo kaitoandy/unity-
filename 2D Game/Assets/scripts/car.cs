@@ -4,7 +4,7 @@ using UnityEngine; //引用Unity引擎提供的API (Unity Engine 命名空間)
 //語法 類別關鍵字 腳本名稱
 public class Car : MonoBehaviour
 {
-   #region 註解
+    #region 註解
     //單行註解:添加說明 翻譯 紀錄等等...會被程式忽略
     //kaito 2021.07.17 (六)開發汽車腳本
     /*多行註解
@@ -14,7 +14,7 @@ public class Car : MonoBehaviour
      */
      #endregion
 
-   #region 認識欄位與四大常用類型
+    #region 認識欄位與四大常用類型
      //欄位屬性:輔助欄位添加功能
      //語法:[屬性名稱(屬性值)]
      //欄位:儲存簡單的資料
@@ -51,7 +51,7 @@ public class Car : MonoBehaviour
      public int doorCount;
      #endregion 
      
-  #region 其他類型
+    #region 其他類型
      //顏色 Color
      public Color Color1;             // 不指定為黑
      public Color red = Color.red;    //使用預設值
@@ -90,6 +90,7 @@ public class Car : MonoBehaviour
      //開始事件:撥放遊戲時執行一次,處理初始化
      private void Start ()
      {
+        #region 練習欄位
         //輸出(任何類型資料);
         print("你好");
 
@@ -103,6 +104,25 @@ public class Car : MonoBehaviour
         cc = 5000;
         weight = 9.9f;
 
+        #endregion
+
+        //呼叫方法語法: 方法名稱()
+        Drive50();
+        Drive100();
+        Drive(150 , "咻咻咻");         //呼叫小括號內的稱為引數,需輸入對應引數
+        Drive(200 , "轟轟轟");
+        Drive(300);                   //有預設值的參數不用引數
+
+        //Drive(80 , "碎石");  時速80 , 音效:咻咻咻 , 特效:碎石 這是錯誤示範
+
+        Drive(80, effact: "碎石");    //使用多個預設值參數時可使用 參數名稱:"值"
+
+        Drive(999, "咚咚咚", "爆炸");
+
+        float kg = KG();              //區域變數,僅在此括號內適用
+        print("轉為公斤資訊" + kg);
+
+        print("BMI值" + BMI(90, 1.64f));
 
     }
 
@@ -113,5 +133,66 @@ public class Car : MonoBehaviour
         print("我要黃金");
     }
 
+    #endregion
+
+    #region 方法 (功能,函式) Method
+     //實作比較複雜的行為 , 例如: 汽車往前開 , 開啟汽車音響並撥放音樂
+     //欄位語法: 修飾詞 類    型 名稱 指定 預設值;
+     //方法語法: 修飾詞 傳回類型 名稱 (參數) { 程式區塊 }
+     //類型 : void - 無傳回
+     //定義方法.不會執行必須呼叫,呼叫的方式:在事件內呼叫此方法
+     //維護,擴充性
+
+    private void Drive50()
+    {
+        print("開車中 ~  時速:50");
+    }
+
+    private void Drive100()
+    {
+        print("開車中 ~  時速:100");
+    }
+
+    //參數語法: 類型 參數名稱 - 寫在小括號內.僅在此方法內可使用
+    //參數1.參數2.參數3.............參數N
+    //參數預設值:類型 參數 名稱 指定 值 (選填式參數)
+    //*預設值只能放在最右邊
+
+    /// <summary>
+    /// 這是開車的方法,用來控制車的速度.音效.特效
+    /// </summary>
+    /// <param name="speed">車子的移動速度</param>
+    /// <param name="sound">開車時的音效</param>
+    /// <param name="effact">開車時的特效</param>
+
+
+    private void Drive( int speed , string sound = "咻咻咻" , string effact = "灰塵")
+    {
+        print("開車中 ~ 時速:" + speed);
+        print("開車音效" + sound);
+        print("開車特效" + effact);
+    }
+
+    /// <summary>
+    /// 噸位轉換成公斤
+    /// </summary>
+    /// <returns>轉為公斤的重量資訊</returns>
+
+    private float KG()
+    {
+        return weight * 1000;
+    }
+
+    /// <summary>
+    /// 計算BMI值
+    /// </summary>
+    /// <param name="weight">體重資訊(公斤)</param>
+    /// <param name="height">身高資訊(公尺)</param>
+    /// <returns></returns>
+
+    private float BMI(float weight ,float height)
+    {
+        return weight / (height * height);
+    }
     #endregion
 }

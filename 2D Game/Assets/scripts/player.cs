@@ -19,5 +19,65 @@ private Animator ani;
 
 
 
-#endregion
+    #endregion
+
+
+    #region 事件
+
+    #endregion
+
+    #region 方法
+
+    /// <summary>
+    /// 移動
+    /// </summary>
+    /// <param name="horizontal">左右水平值</param>
+    private void Move(float horizontal)
+    {
+
+    }
+
+    /// <summary>
+    /// 跳躍
+    /// </summary>
+    private void Jump()
+    {
+
+    }
+
+    /// <summary>
+    /// 攻擊
+    /// </summary>
+    private void Attack()
+    {
+
+    }
+
+    /// <summary>
+    /// 受傷
+    /// </summary>
+    /// <param name="damage">損傷值</param>
+    public void Hurt(float damage)
+    {
+
+    }
+
+    /// <summary>
+    /// 死亡
+    /// </summary>
+    private void Death()
+    {
+
+    }
+
+    /// <summary>
+    /// 吃道具
+    /// </summary>
+    /// <param name="prop">道具名稱</param>
+    private void EatProp(string prop)
+    {
+
+    }
+    #endregion
+
 }
