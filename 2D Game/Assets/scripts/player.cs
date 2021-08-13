@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
         //GetComponent <類型> 泛行方法.可以指定任何類型
         //作用:取得此物件的2D鋼體元件
         rig = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
     }
 
     #endregion
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
         GetplayerInputHorizontal();
         TurnDirection();
         Jump();
+        Attack();
     }
 
 
@@ -100,6 +102,8 @@ public class Player : MonoBehaviour
         */
 
         rig.velocity = new Vector2(horizontal * speed * Time.fixedDeltaTime, rig.velocity.y);
+
+        ani.SetBool("走路開關", horizontal !=0);
     }
     /// <summary>
     /// 選轉方向 :處理角色面向問題 , 按右角度 0 按左角度 180
@@ -144,6 +148,9 @@ public class Player : MonoBehaviour
             isGround = false;
         }
 
+        //設定動畫參數,與是否在地板上相反
+        ani.SetBool("跳躍開關", !isGround);
+
         //如果玩家按下 空白鍵 角色就往上跳躍
         if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
@@ -151,11 +158,40 @@ public class Player : MonoBehaviour
         }
     }
 
+    [Header("攻擊冷卻"), Range(0, 2)]
+    public float cd = 2;
+
+    /// <summary>
+    /// 攻擊計時器
+    /// </summary>
+    private float timer;
+
+    /// <summary>
+    /// 是否攻擊
+    /// </summary>
+    private bool isAttack;
+
+    
+
+
     /// <summary>
     /// 攻擊
     /// </summary>
     private void Attack()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            isAttack = true;
+            ani.SetTrigger("攻擊觸發");
+
+            
+        }
+
+        if (isAttack)
+        {
+            timer += Time.deltaTime;
+            print("攻擊累加時間:" + timer);
+        }
     }
     /// <summary>
     /// 受傷

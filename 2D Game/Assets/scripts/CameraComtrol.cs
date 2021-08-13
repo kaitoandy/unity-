@@ -53,6 +53,7 @@ public class CameraComtrol : MonoBehaviour
         //攝影機Z軸放回預設 -10 避免看不到2D物件
         posReault.z = -10;
 
+        //使用夾住 API 限制攝影機的'左右範圍
         posReault.x = Mathf.Clamp(posReault.x, limitHorizontal.x, limitHorizontal.y);
 
         //此物件座標 指定為 運算後的結果座標
