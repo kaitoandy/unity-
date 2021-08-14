@@ -9,11 +9,11 @@ C:\2020.3.12f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker7
+AssetImportWorker4
 -projectPath
 E:/unity/unity-/2D Game
 -logFile
-Logs/AssetImportWorker7.log
+Logs/AssetImportWorker4.log
 -srvPort
 50090
 Successfully changed project path to: E:/unity/unity-/2D Game

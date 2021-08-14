@@ -74,12 +74,42 @@ public class BaseEnemy : MonoBehaviour
 
     private void Update()
     {
-        
+        ChackForward();
+        CheckState();
+    }
+
+    private void FixedUpdate()
+    {
+        WalkInFixedUpdate();
     }
 
     #endregion
 
+    [Header("檢查前發是否有障礙或是地板球體")]
+    public Vector3 checkForwardOffest;
+    [Range(0, 1)]
+    public float checkForwardRadius = 0.3f;
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color(1, 0.3f, 0.3f, 0.3f);
+        //transform.right 當前物件的右方 (2D模式為前方 , 紅色箭頭)
+        //transform.up 當前物件的上方 (綠色箭頭)
+        Gizmos.DrawSphere(transform.position +  transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius); 
+    }
+
+    public int[] scores;
+    public Collider2D[] hits;
+
     #region 方法
+    /// <summary>
+    /// 檢查前方: 是否有地板或是障礙物
+    /// </summary>
+    private void ChackForward()
+    {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position + transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius);
+        print("前方碰到的物件" + hit.name);
+    }
     /// <summary>
     /// 檢查狀態
     /// </summary>
@@ -112,10 +142,13 @@ public class BaseEnemy : MonoBehaviour
         if (timeridle < timeIdle)                                        //如果計時器 < 等待時間
         {
             timeridle += Time.deltaTime;                                 //累加時間
+            ani.SetBool("走路開關", false);                              //關閉走路開關:等待動畫
            
         }
+
         else                                                             //否則  
         {
+            RandomDirection();                                           //隨機方向
             state = StateEnemy.walk;                                     //切換狀態
             timeWalk = Random.Range(v2RandomWalk.x, v2RandomWalk.y);     // 取得走路時間
             timeridle = 0;                                               //計時器歸0
@@ -130,20 +163,37 @@ public class BaseEnemy : MonoBehaviour
         
         if (timerWalk < timeWalk)
         {
+           
             timeridle += Time.deltaTime;
-            
+            ani.SetBool("走路開關", true);                             //關閉走路開關: 走路動畫
         }
         else
         {
+            
             state = StateEnemy.idle;
+            rig.velocity = Vector2.zero;
             timeIdle = Random.Range(v2RandomIdle.x, v2RandomIdle.y);
             timerWalk = 0;
         }
     }
-
+    /// <summary>
+    /// 將物理行為單獨處理並在FixedUpdate呼叫
+    /// </summary>
     private void WalkInFixedUpdate()
     {
-        if(state == StateEnemy.walk) rig.velocity = transform.right * speed * Time.deltaTime; 
+        //如果目前狀態是移動,就鋼體.加速度 = 右邊 * 速度 * 1/50 + 上方 * 地心引力
+        if (state == StateEnemy.walk) rig.velocity = transform.right * speed  * Time.deltaTime  + Vector3.up * rig.velocity.y; 
+    }
+    /// <summary>
+    /// 隨機方向 : 隨機面向左邊或右邊
+    /// 右邊: 0 , 0, 0
+    /// 左邊: 0, 180, 0
+    /// </summary>
+    private void RandomDirection()
+    {
+        int random = Random.Range(0, 2);                  //隨機.範圍(最小 , 最大) - 整數時不包含最大值(0 , 2) - 隨機取得(0 , 1)
+        if (random == 0) transform.eulerAngles = Vector2.up * 180;
+        else transform.eulerAngles = Vector2.zero;
     }
 
     #endregion
