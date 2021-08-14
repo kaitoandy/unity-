@@ -159,7 +159,7 @@ public class Player : MonoBehaviour
     }
 
     [Header("攻擊冷卻"), Range(0, 2)]
-    public float cd = 2;
+    public float cd = 0.8f;
 
     /// <summary>
     /// 攻擊計時器
@@ -179,7 +179,8 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        //如果不是攻擊中 並且 按下左鍵 才可以攻擊 啟動觸發參數
+        if (!isAttack && Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttack = true;
             ani.SetTrigger("攻擊觸發");
@@ -187,10 +188,21 @@ public class Player : MonoBehaviour
             
         }
 
+        //如果按下攻擊左鍵 則開始累加時間
         if (isAttack)
         {
-            timer += Time.deltaTime;
-            print("攻擊累加時間:" + timer);
+            if (timer < cd)
+            {
+                timer += Time.deltaTime;
+            }
+
+            else
+            {
+                timer = 0;
+                isAttack = false;
+
+            }
+            
         }
     }
     /// <summary>
