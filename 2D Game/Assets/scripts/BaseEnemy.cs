@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Linq;
+
 /// <summary>
 /// 敵人基底類別
 /// 功能: 隨機走動 等待 追蹤玩家 受傷 死亡 - 狀態檢查
@@ -17,7 +19,7 @@ public class BaseEnemy : MonoBehaviour
 
     //將私人欄位顯示在屬性面板上
     [SerializeField]
-    private StateEnemy state;
+    protected StateEnemy state;
 
     private Rigidbody2D rig;
     private Animator ani;
@@ -72,7 +74,7 @@ public class BaseEnemy : MonoBehaviour
         #endregion
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         ChackForward();
         CheckState();
@@ -90,7 +92,12 @@ public class BaseEnemy : MonoBehaviour
     [Range(0, 1)]
     public float checkForwardRadius = 0.3f;
 
-    private void OnDrawGizmos()
+    //父類別的成員如果希望子類別複寫必須遵守:
+    //1.修飾詞必須是 public 或 protected - 保護 允許子類別存取
+    //2.添加關鍵字 virtual 虛擬 - 允許子類別複寫
+    //3.子類別使用 override 複寫
+
+    protected virtual void OnDrawGizmos()
     {
         Gizmos.color = new Color(1, 0.3f, 0.3f, 0.3f);
         //transform.right 當前物件的右方 (2D模式為前方 , 紅色箭頭)
@@ -103,6 +110,10 @@ public class BaseEnemy : MonoBehaviour
     public int[] scores;
     
     public Collider2D[] hits;
+    /// <summary>
+    /// 存放前方是否有不包含地板或跳台的物件
+    /// </summary>
+    public Collider2D[] hitsResult;
 
     #region 方法
     /// <summary>
@@ -112,15 +123,17 @@ public class BaseEnemy : MonoBehaviour
     {
         hits = Physics2D.OverlapCircleAll(transform.position + transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius);
 
+
         //兩種情況都要轉向,避免撞到障礙物以及掉落
-        //1.列陣內有 不是地板 或 不是跳台的物件 = 有障礙物
+        //1.列陣內有 不是地板 並且 不是跳台的物件 = 有障礙物
         //陣列是空的 = 沒有地方站,會掉落
         //查詢語言 LinQ : 可查詢列陣資料,例如:是否包含地板,是否有資料.......
+        hitsResult = hits.Where(x => x.name !="地板" && x.name !="跳台" && x.name !="玩家" && x.name !="可穿越跳台測試").ToArray();
 
         //列陣為空值:列陣數量為0
-        if (hits.Length ==0)
+        //如果 碰撞數量為0 (前方沒有地方站立) 或著 碰撞結果大於0 (前方有障礙物) 都要轉向
+        if (hits.Length ==0 || hitsResult.Length > 0)
         {
-            print("前方沒有地板會掉落");
             TurnDirection();
         }
     }
@@ -154,11 +167,43 @@ public class BaseEnemy : MonoBehaviour
             case StateEnemy.track:
                 break;
             case StateEnemy.attack:
+                Attack();
                 break;
             case StateEnemy.dead:
                 break;
             
         }
+    }
+
+    [Range(0.5f , 5)]
+    /// <summary>
+    /// 攻擊冷卻時間
+    /// </summary>
+    public float cdAttack = 3;
+    private float timerAttack;
+    /// <summary>
+    /// 攻擊狀態:執行攻擊並添加冷卻
+    /// </summary>
+    private void Attack()
+    {
+        if (timerAttack < cdAttack)
+        {
+            timerAttack += Time.deltaTime;
+
+        }
+        else
+        {
+            AttackMethod();
+        }
+    }
+
+    /// <summary>
+    /// 子類別可以決定該如何攻擊的方法
+    /// </summary>
+    protected virtual void AttackMethod()
+    {
+        timerAttack = 0;
+        ani.SetTrigger("攻擊觸發");
     }
 
     /// <summary>
