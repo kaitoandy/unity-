@@ -98,7 +98,10 @@ public class BaseEnemy : MonoBehaviour
         Gizmos.DrawSphere(transform.position +  transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius); 
     }
 
+    //認識陣列
+    //語法: 類型後方加上中誇號,例如 int[] float[] string[] Vector2[]
     public int[] scores;
+    
     public Collider2D[] hits;
 
     #region 方法
@@ -107,9 +110,34 @@ public class BaseEnemy : MonoBehaviour
     /// </summary>
     private void ChackForward()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position + transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius);
-        print("前方碰到的物件" + hit.name);
+        hits = Physics2D.OverlapCircleAll(transform.position + transform.right * checkForwardOffest.x + transform.up * checkForwardOffest.y, checkForwardRadius);
+
+        //兩種情況都要轉向,避免撞到障礙物以及掉落
+        //1.列陣內有 不是地板 或 不是跳台的物件 = 有障礙物
+        //陣列是空的 = 沒有地方站,會掉落
+        //查詢語言 LinQ : 可查詢列陣資料,例如:是否包含地板,是否有資料.......
+
+        //列陣為空值:列陣數量為0
+        if (hits.Length ==0)
+        {
+            print("前方沒有地板會掉落");
+            TurnDirection();
+        }
     }
+
+
+    /// <summary>
+    /// 轉向
+    /// </summary>
+    private void TurnDirection()
+    {
+        float y = transform.eulerAngles.y;
+        if (y == 0) transform.eulerAngles = Vector3.up * 180;
+        else transform.eulerAngles = Vector3.zero;
+    }
+
+
+
     /// <summary>
     /// 檢查狀態
     /// </summary>
@@ -164,7 +192,7 @@ public class BaseEnemy : MonoBehaviour
         if (timerWalk < timeWalk)
         {
            
-            timeridle += Time.deltaTime;
+            timerWalk += Time.deltaTime;
             ani.SetBool("走路開關", true);                             //關閉走路開關: 走路動畫
         }
         else
