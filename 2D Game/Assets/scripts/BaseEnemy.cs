@@ -68,6 +68,11 @@ public class BaseEnemy : MonoBehaviour
     /// </summary>
     protected Collider2D hit;
 
+    [Header("掉落道具資料:道具 機率")]
+    public GameObject goProp;
+    [Range(0, 1)]
+    public float propProbability = 0.3f;
+
     #region 事件
     private void Start()
     {
@@ -287,7 +292,46 @@ public class BaseEnemy : MonoBehaviour
     }
 
     #endregion
+
+    #region 方法:公開
+    /// <summary>
+    /// 受傷
+    /// </summary>
+    /// <param name="damage"></param>
+    public void Hurt(float damage)
+    {
+        hp -= damage;
+        ani.SetTrigger("受傷觸發");
+        if (hp <= 0) Dead();
+    }
+    /// <summary>
+    /// 死亡
+    /// </summary>
+    public void Dead()
+    {
+        hp = 0;
+        ani.SetBool("死亡", true);
+        state = StateEnemy.dead;
+        GetComponent<CapsuleCollider2D>().enabled = false;   //關閉碰撞器
+        rig.velocity = Vector3.zero;                         //加速度歸零
+        rig.constraints = RigidbodyConstraints2D.FreezeAll;  //鋼體凍結全部
+        Dropprop();
+
+        enabled = false;
+
+    }
+
+    private void Dropprop()
+    {
+        if(Random.value <= propProbability)
+        {
+            Instantiate(goProp, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        }
+    } 
+
+    #endregion
 }
+
 
 //定義列舉
 //1. 使用關鍵字 enum 定義列舉以及包含的選項,可以在額外定義

@@ -7,8 +7,8 @@ public class Player : MonoBehaviour
     public float speed = 10.5f;
     [Header("跳躍高度"), Range(0, 3000)]
     public int hight = 100;
-    [Header("血量"), Range(0, 100)]
-    public float HP = 100;
+    [Header("血量"), Range(0, 500)]
+    public float HP = 200;
     [Header("是否在地面上"), Tooltip("用來儲存腳色是否在地板上的資訊 在地板上 true 不在地板上 false")]
     public bool isGround;
 
@@ -17,6 +17,10 @@ public class Player : MonoBehaviour
     private AudioSource aud;
     private Rigidbody2D rig;
     private Animator ani;
+
+    [Header("攻擊區域的位移與大小")]
+    public Vector2 checkattackoffset;
+    public Vector3 checkattacksize;
 
     #endregion
 
@@ -33,7 +37,7 @@ public class Player : MonoBehaviour
     /// <summary>
     /// 血量最大值:保存最大血量
     /// </summary>
-    private float Hpmax;
+    private readonly float hpMax;
 
     private void Start()
     {
@@ -44,6 +48,8 @@ public class Player : MonoBehaviour
         ani = GetComponent<Animator>();
         textHP = GameObject.Find("文字血量").GetComponent<Text>();
         imgHP = GameObject.Find("血條").GetComponent<Image>();
+
+        cameraComtrol = GameObject.Find("攝影機").GetComponent<CameraComtrol>();
     }
 
     #endregion
@@ -76,6 +82,12 @@ public class Player : MonoBehaviour
     {
         Gizmos.color = new Color(1, 0, 0, 0.3f);     //半透明紅色
         Gizmos.DrawSphere(transform.position + groundoffest,groundRadius); //繪製球體(中心點.半徑)
+
+        Gizmos.color = new Color(1, 0.3f, 0.1f, 0.3f);
+        Gizmos.DrawCube(transform.position +
+            transform.right * checkattackoffset.x +
+            transform.up * checkattackoffset.y,
+            checkattacksize);
     }
     /// <summary>
     /// 玩家水平輸入值
@@ -186,6 +198,11 @@ public class Player : MonoBehaviour
     /// </summary>
     private bool isAttack;
 
+    [Header("攻擊力"), Range(0, 1000)]
+    public float attack = 20;
+
+    private CameraComtrol cameraComtrol;
+
     
 
 
@@ -200,8 +217,20 @@ public class Player : MonoBehaviour
             isAttack = true;
             ani.SetTrigger("攻擊觸發");
 
-            
+            Collider2D hit = Physics2D.OverlapBox(transform.position +
+            transform.right * checkattackoffset.x +
+            transform.up * checkattackoffset.y,
+            checkattacksize, 0, 1 << 8);
+
+            if (hit)
+            {
+                hit.GetComponent<BaseEnemy>().Hurt(attack);    //敵人 受傷
+                StartCoroutine(cameraComtrol.ShakeEffect());   //攝影機 晃動
+            }
+
         }
+
+
 
         //如果按下攻擊左鍵 則開始累加時間
         if (isAttack)
@@ -231,7 +260,7 @@ public class Player : MonoBehaviour
         if (HP <= 0) Death();  //如果血量<= 0 就會死
 
         textHP.text = "HP " + HP;        //文字血量.文字內容 = "HP" + 血量
-        imgHP.fillAmount = HP / Hpmax;   //血條.填滿數值 = HP / hpmax
+        imgHP.fillAmount = HP / hpMax;   //血條.填滿數值 = HP / hpmax
     }
     /// <summary>
     /// 死亡
@@ -246,8 +275,35 @@ public class Player : MonoBehaviour
     /// 吃道具
     /// </summary>
     /// <param name="prop">道具名稱</param>
-    private void EatProp(string prop)
+    private void EatProp(string propName)
     {
+        switch (propName)
+        {
+            case "蘋果":
+                Destroy(goPropHit);                     //刪除(物件,延遲時間)
+                HP += 10;
+                HP = Mathf.Clamp(HP, 0, hpMax);         //夾住hp在範圍內
+                textHP.text = "HP" + HP;                //更新介面
+                imgHP.fillAmount = HP / hpMax;
+                break;
+            default:
+                break;
+        }
+    }
+
+    private GameObject goPropHit;
+
+    
+
+    //碰撞事件:
+    //1.兩個碰撞物件都有 Collider
+    //2.並且中一個有Rigiddbody
+    //3.兩個都沒有勾選  Is Trigger
+    //Enter 事件 :碰撞開始執行一次
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        goPropHit = collision.gameObject;
+        EatProp(collision.gameObject.name);
 
     }
     #endregion
