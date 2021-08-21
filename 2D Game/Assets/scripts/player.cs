@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.UI;                          //引用 介面 API
 public class Player : MonoBehaviour
 {
     #region 欄位
@@ -22,13 +22,28 @@ public class Player : MonoBehaviour
 
 
     #region 事件
+    /// <summary>
+    /// 文字血量
+    /// </summary>
+    private Text textHP;
+    /// <summary>
+    /// 血條
+    /// </summary>
+    private Image imgHP;
+    /// <summary>
+    /// 血量最大值:保存最大血量
+    /// </summary>
+    private float Hpmax;
 
     private void Start()
     {
         //GetComponent <類型> 泛行方法.可以指定任何類型
+
         //作用:取得此物件的2D鋼體元件
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        textHP = GameObject.Find("文字血量").GetComponent<Text>();
+        imgHP = GameObject.Find("血條").GetComponent<Image>();
     }
 
     #endregion
@@ -211,12 +226,21 @@ public class Player : MonoBehaviour
     /// <param name="damage">損傷值</param>
     public void Hurt(float damage)
     {
+        HP -= damage;          //血量扣除傷害值
+
+        if (HP <= 0) Death();  //如果血量<= 0 就會死
+
+        textHP.text = "HP " + HP;        //文字血量.文字內容 = "HP" + 血量
+        imgHP.fillAmount = HP / Hpmax;   //血條.填滿數值 = HP / hpmax
     }
     /// <summary>
     /// 死亡
     /// </summary>
     private void Death()
     {
+        HP = 0;                        //血量歸零
+        ani.SetBool("死亡", true);     //死亡動畫
+        enabled = false;               //關閉此腳本
     }
     /// <summary>
     /// 吃道具
@@ -224,6 +248,7 @@ public class Player : MonoBehaviour
     /// <param name="prop">道具名稱</param>
     private void EatProp(string prop)
     {
+
     }
     #endregion
 

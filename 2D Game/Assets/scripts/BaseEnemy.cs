@@ -50,7 +50,7 @@ public class BaseEnemy : MonoBehaviour
     /// </summary>
     private float timerWalk;
 
-   
+
 
 
 
@@ -58,6 +58,15 @@ public class BaseEnemy : MonoBehaviour
 
 
     #endregion
+    /// <summary>
+    /// 玩家類別
+    /// </summary>
+    protected Player player;
+
+    /// <summary>
+    /// 攻擊區域的碰撞:保存玩家是否進入以及玩家碰撞資訊
+    /// </summary>
+    protected Collider2D hit;
 
     #region 事件
     private void Start()
@@ -67,6 +76,7 @@ public class BaseEnemy : MonoBehaviour
         ani = GetComponent<Animator>();
         aud = GetComponent<AudioSource>();
 
+        player = GameObject.Find("玩家").GetComponent<Player>();
         #endregion
 
         #region 初始值設定
@@ -91,6 +101,13 @@ public class BaseEnemy : MonoBehaviour
     public Vector3 checkForwardOffest;
     [Range(0, 1)]
     public float checkForwardRadius = 0.3f;
+
+    //陣列:保存相同類型資料表格,擁有編號與值2份資料
+    //陣列語法:類型[]
+    [Header("攻擊延遲 可自行設定數量"), Range(0, 5)]
+    public float[] attacksDelay;
+    [Header("攻擊多久回復原本狀態"), Range(0, 5)]
+    public float afterAttackRestoreOriginal = 1;
 
     //父類別的成員如果希望子類別複寫必須遵守:
     //1.修飾詞必須是 public 或 protected - 保護 允許子類別存取
