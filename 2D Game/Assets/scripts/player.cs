@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;                          //引用 介面 API
+using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     #region 欄位
@@ -21,6 +22,12 @@ public class Player : MonoBehaviour
     [Header("攻擊區域的位移與大小")]
     public Vector2 checkattackoffset;
     public Vector3 checkattacksize;
+
+    [Header("死亡事件")]
+    public UnityEvent onDead;
+    [Header("音效")]
+    public AudioClip soundjump;
+    public AudioClip soundattack;
 
     #endregion
 
@@ -46,6 +53,7 @@ public class Player : MonoBehaviour
         //作用:取得此物件的2D鋼體元件
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        aud = GetComponent<AudioSource>();
 
         hpMax = HP;
 
@@ -185,6 +193,7 @@ public class Player : MonoBehaviour
         if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
             rig.AddForce(new Vector2(0, hight));
+            aud.PlayOneShot(soundjump, Random.Range(0.7f, 1.1f));
         }
     }
 
@@ -219,6 +228,7 @@ public class Player : MonoBehaviour
         {
             isAttack = true;
             ani.SetTrigger("攻擊觸發");
+            aud.PlayOneShot(soundattack, Random.Range(0.7f, 1.1f));
 
             Collider2D hit = Physics2D.OverlapBox(transform.position +
             transform.right * checkattackoffset.x +
@@ -272,6 +282,7 @@ public class Player : MonoBehaviour
     {
         HP = 0;                        //血量歸零
         ani.SetBool("死亡", true);     //死亡動畫
+        onDead.Invoke();               //呼叫死亡事件
         enabled = false;               //關閉此腳本
     }
     /// <summary>

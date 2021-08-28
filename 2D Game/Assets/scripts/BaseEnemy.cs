@@ -51,6 +51,10 @@ public class BaseEnemy : MonoBehaviour
     private float timerWalk;
 
 
+    [Header("­µ®Ä")]
+    public AudioClip soundattack;
+
+
 
 
 
@@ -226,6 +230,7 @@ public class BaseEnemy : MonoBehaviour
     {
         timerAttack = 0;
         ani.SetTrigger("§ðÀ»Ä²µo");
+        aud.PlayOneShot(soundattack, Random.Range(0.7f, 1.1f));
     }
 
     /// <summary>

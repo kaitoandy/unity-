@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 /// <summary>
 /// 結束遊戲控制器:
 /// 1.擊殺所有怪物並觸發傳送門
@@ -15,7 +16,7 @@ public class GameOverController : MonoBehaviour
     //字串內的換行 \n
 
     [TextArea(1, 3)]
-    public string stringWin = "你已擊敗所有怪物...\n 可以繼續前進";
+    public string stringWin = "你已殺光所有怪物...\n 可以繼續前進";
     [TextArea(1, 3)]
     public string stringLose = "挑戰失敗....\n 重新再來一次吧....";
 
@@ -28,6 +29,23 @@ public class GameOverController : MonoBehaviour
     /// </summary>
     private bool isGameOver;
 
+
+    private void Update()
+    {
+        Replay();
+
+        Quit();
+    }
+
+    private void Replay()
+    {
+        if (isGameOver && Input.GetKeyDown(kcReplay)) SceneManager.LoadScene("遊戲場景");
+    }
+
+    private void Quit()
+    {
+        if (isGameOver && Input.GetKeyDown(kcQuitGame)) Application.Quit();
+    }
     /// <summary>
     /// 顯示遊戲結束畫面
     /// 1.設定為遊戲結束
