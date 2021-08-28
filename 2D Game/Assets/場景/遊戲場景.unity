@@ -1102,7 +1102,7 @@ MonoBehaviour:
   v2RandomIdle: {x: 1, y: 5}
   v2RandomWalk: {x: 3, y: 6}
   goProp: {fileID: 1766380717}
-  propProbability: 0.8
+  propProbability: 0.43
   checkForwardOffest: {x: 1.45, y: -1.27, z: 0}
   checkForwardRadius: 0.2
   attacksDelay:
@@ -1272,11 +1272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8503919390059486548, guid: 2d4c375747e26ed43aafb0ec5df95193, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9080744
+      value: 6.73
       objectReference: {fileID: 0}
     - target: {fileID: 8503919390059486548, guid: 2d4c375747e26ed43aafb0ec5df95193, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.1397204
+      value: 6.63
       objectReference: {fileID: 0}
     - target: {fileID: 8503919390059486548, guid: 2d4c375747e26ed43aafb0ec5df95193, type: 3}
       propertyPath: m_LocalPosition.z

@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
     /// <summary>
     /// 血量最大值:保存最大血量
     /// </summary>
-    private readonly float hpMax;
+    private float hpMax;
 
     private void Start()
     {
@@ -46,6 +46,9 @@ public class Player : MonoBehaviour
         //作用:取得此物件的2D鋼體元件
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+
+        hpMax = HP;
+
         textHP = GameObject.Find("文字血量").GetComponent<Text>();
         imgHP = GameObject.Find("血條").GetComponent<Image>();
 
