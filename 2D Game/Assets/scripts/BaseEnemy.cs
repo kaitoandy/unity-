@@ -317,6 +317,10 @@ public class BaseEnemy : MonoBehaviour
         rig.constraints = RigidbodyConstraints2D.FreezeAll;  //鋼體凍結全部
         Dropprop();
 
+        //通知傳送管理將數量-1
+        TelePortManager.countAllEnemy--;
+
+
         enabled = false;
 
     }
