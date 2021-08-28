@@ -210,6 +210,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &369982256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149444157477806207, guid: 2bc29836e768b2d4dbd9fe9bb8e114ac, type: 3}
+  m_PrefabInstance: {fileID: 7579221153618504914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &369982257
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369982256}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &460467735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,6 +3971,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &789403409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149444157477806207, guid: 2bc29836e768b2d4dbd9fe9bb8e114ac, type: 3}
+  m_PrefabInstance: {fileID: 1481575116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &789403410
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789403409}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &896388805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4413,7 +4465,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210391900}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4425,7 +4477,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &1210391906
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4452,6 +4504,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3523966419744459319, guid: 2bc29836e768b2d4dbd9fe9bb8e114ac, type: 3}
   m_PrefabInstance: {fileID: 1481575116}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1375021200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2612682570192762261, guid: a4a24dab2ec92cc48a4d564c49724eeb, type: 3}
+  m_PrefabInstance: {fileID: 1610001983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1375021201
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375021200}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1401531051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4462,6 +4540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401531052}
   - component: {fileID: 1401531053}
+  - component: {fileID: 1401531054}
   m_Layer: 0
   m_Name: "\u8C93\u77F3\u50CF"
   m_TagString: Untagged
@@ -4534,6 +4613,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1401531054
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401531051}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!4 &1463370867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2145401525634773754, guid: 697155c2ecf3a1248a159f2b0be82ada, type: 3}
@@ -4596,6 +4696,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bc29836e768b2d4dbd9fe9bb8e114ac, type: 3}
+--- !u!1 &1543912341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2612682570192762261, guid: a4a24dab2ec92cc48a4d564c49724eeb, type: 3}
+  m_PrefabInstance: {fileID: 4473163329514626694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1543912342
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543912341}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1588068440
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,6 +4985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110183503}
   - component: {fileID: 2110183504}
+  - component: {fileID: 2110183505}
   m_Layer: 0
   m_Name: "\u5973\u795E\u50CF"
   m_TagString: Untagged
@@ -4931,6 +5058,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2110183505
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110183502}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &2335816000259139134
 PrefabInstance:
   m_ObjectHideFlags: 0

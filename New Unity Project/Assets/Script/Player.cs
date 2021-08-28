@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
 
        
 
-        ani.SetBool("走路開關", horizontal != 0);
+        ani.SetBool("貓 正面", horizontal != 0);
     }
     /// <summary>
     /// 選轉方向 :處理角色面向問題 , 按右角度 0 按左角度 180
