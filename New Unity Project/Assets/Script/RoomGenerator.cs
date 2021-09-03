@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class RoomGenerator : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class RoomGenerator : MonoBehaviour
     public int roomNumber;
 
     public Color startColor, endColor;
+    private GameObject endRoom;
 
     [Header("位置控制")]
     public Transform generatorPoint;
@@ -20,7 +23,7 @@ public class RoomGenerator : MonoBehaviour
 
     public List<GameObject> rooms = new List<GameObject>();
 
-   void Start()
+   private void Start()
     {
         for (int i = 0; i < roomNumber; i++)
         {
@@ -29,6 +32,27 @@ public class RoomGenerator : MonoBehaviour
             //改變point位置
             ChangePointPos();
 
+        }
+
+
+        rooms[0].GetComponent<SpriteRenderer>().color = startColor;
+
+        endRoom = rooms[0];
+        foreach (var room in rooms)
+        {
+            if (room.transform.position.sqrMagnitude > endRoom.transform.position.sqrMagnitude)
+            {
+                endRoom = room;
+            }
+        }
+        endRoom.GetComponent<SpriteRenderer>().color = endColor;
+    }
+
+    private void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

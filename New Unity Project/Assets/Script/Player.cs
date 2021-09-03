@@ -15,9 +15,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
     private Animator ani;
 
-    [Header("攻擊區域的位移與大小")]
-    public Vector2 checkattackoffset;
-    public Vector3 checkattacksize;
+    
+    public Vector2 movement;
+    
 
     private float hValue;
 
@@ -37,55 +37,13 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        GetPlayerInputHorizontal();
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
     }
 
     private void FixedUpdate()
     {
-        Move(hValue);
-    }
-
-
-    private void GetPlayerInputHorizontal()
-    {
-        hValue = Input.GetAxis("Horizontal");
-
-    }
-    private void Move(float horizontal)
-    {
-        
-        //區域變數:在方法內的欄位,有區域性,僅限此方法內存取
-        //transform: 此物件的 transform 變形元件
-        //posMove: 角色當前座標 + 玩家輸入的水平值
-        //鋼體.移動座標(要前往的座標)
-        //Time.fixedDeltaTime 指 1/50 秒
-        Vector2 posMove = transform.position + new Vector3(horizontal,  0, 0) * speed * Time.fixedDeltaTime;
-
-       
-        rig.MovePosition(posMove);
-        
-
-       
-
-        ani.SetBool("貓 正面", horizontal != 0);
-    }
-    /// <summary>
-    /// 選轉方向 :處理角色面向問題 , 按右角度 0 按左角度 180
-    /// </summary>
-    private void TurnDirection()
-    {
-        print("玩家按下右" + Input.GetKeyDown(KeyCode.D));
-
-        //如果按 D 就將角度設為(0,0,0)
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            transform.eulerAngles = Vector3.zero;
-        }
-
-        //如果按 A 就將角度設為(0,180,0)
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-        }
+        rig.MovePosition(rig.position + movement * speed * Time.fixedDeltaTime);
+   
     }
 }

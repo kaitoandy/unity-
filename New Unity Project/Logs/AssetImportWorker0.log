@@ -1,0 +1,1923 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'zh' Physical Memory: 8108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/unity/unity-/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50189
+Successfully changed project path to: E:/unity/unity-/New Unity Project
+E:/unity/unity-/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity/unity-/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004534 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 3.234900 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.656900 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/地形拼接/場景道具/mainlevbuild_3.asset
+  artifactKey: Guid(32d68ad55b02be74aa232ab2934c0b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_3.asset using Guid(32d68ad55b02be74aa232ab2934c0b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b2c17c2b3638c29585701806b43a00') in 0.142649 seconds 
+  Import took 0.150991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_11.asset
+  artifactKey: Guid(7412e9dbb17bf77478ac8218939845d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_11.asset using Guid(7412e9dbb17bf77478ac8218939845d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d55c7d034ab55ce6429e69f8ed0fef') in 0.032959 seconds 
+  Import took 0.042451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_6.asset
+  artifactKey: Guid(a2accc849ba43d9478df7388c4563db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_6.asset using Guid(a2accc849ba43d9478df7388c4563db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e058af087ff0694231acea2066e15db8') in 0.027685 seconds 
+  Import took 0.036983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_9.asset
+  artifactKey: Guid(677e505451e24d04cb203fcbc3b4ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_9.asset using Guid(677e505451e24d04cb203fcbc3b4ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7be2731ead5d214cdca0c97c20649be') in 0.041109 seconds 
+  Import took 0.052473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_2.asset
+  artifactKey: Guid(c2648cac239f89f4eb1708dd21c6d972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_2.asset using Guid(c2648cac239f89f4eb1708dd21c6d972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2914611972604aeeb546e49af5624f7') in 0.042751 seconds 
+  Import took 0.051845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_0.asset
+  artifactKey: Guid(9f8bf5d37a932d7448a8c25a1c5f3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_0.asset using Guid(9f8bf5d37a932d7448a8c25a1c5f3d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da34b205380388dfe44acfbb1afbbe66') in 0.031247 seconds 
+  Import took 0.047225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_13.asset
+  artifactKey: Guid(36d2d3b35f9dfa247b152de82e143b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_13.asset using Guid(36d2d3b35f9dfa247b152de82e143b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80acb602c46199111fe980675f4819e6') in 0.036575 seconds 
+  Import took 0.044273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_4.asset
+  artifactKey: Guid(b16c1120fa926154c8c39b4839bb6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_4.asset using Guid(b16c1120fa926154c8c39b4839bb6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1a46b4fca6ba4afc24c4d26c0ae31b') in 0.027788 seconds 
+  Import took 0.039971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_12.asset
+  artifactKey: Guid(c5f8c26ded4f8b9498242a702382e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_12.asset using Guid(c5f8c26ded4f8b9498242a702382e553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25300af320b0c9e3f45005d16844aaf4') in 0.034507 seconds 
+  Import took 0.043332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_5.asset
+  artifactKey: Guid(f26390ca48381a546ae9213e53468b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_5.asset using Guid(f26390ca48381a546ae9213e53468b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd18aeda7102f67aef8cc09aebe63559') in 0.025055 seconds 
+  Import took 0.035960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_1.asset
+  artifactKey: Guid(8ed41ad82458e434cbdfaa64079bf6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_1.asset using Guid(8ed41ad82458e434cbdfaa64079bf6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0d5055d3d91d54270184af1dcfc789') in 0.029197 seconds 
+  Import took 0.041417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_7.asset
+  artifactKey: Guid(354a25c263a417b4894ede94ecc06b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_7.asset using Guid(354a25c263a417b4894ede94ecc06b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29867d49e9519af580922b19ef13cec9') in 0.036371 seconds 
+  Import took 0.045755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_10.asset
+  artifactKey: Guid(0e9e16f43b8e7c34fa96a18f50ec276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_10.asset using Guid(0e9e16f43b8e7c34fa96a18f50ec276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb17e6ade73c9b79155a7829b93b1a0') in 0.028029 seconds 
+  Import took 0.038632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_8.asset
+  artifactKey: Guid(c897c9414862ac24fb73a0cb6881ca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_8.asset using Guid(c897c9414862ac24fb73a0cb6881ca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a5f03c1198283789a56f94ad7bb83') in 0.028704 seconds 
+  Import took 0.041382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/地形拼接/New Palette.prefab
+  artifactKey: Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/New Palette.prefab using Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60fd814131a2629df5c7803d72a4c5') in 0.028275 seconds 
+  Import took 0.039725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.563458 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_9.asset
+  artifactKey: Guid(82887624dae8bff4080b74424283de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_9.asset using Guid(82887624dae8bff4080b74424283de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706da18d3c714bdea0373b0aad216459') in 0.021749 seconds 
+  Import took 0.031494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075340 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_10.asset
+  artifactKey: Guid(b129872a1bd2dd34aa9452960ea28ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_10.asset using Guid(b129872a1bd2dd34aa9452960ea28ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfb678bdbf1003147ba194ead696597') in 0.026365 seconds 
+  Import took 0.036632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_11.asset
+  artifactKey: Guid(bb5a18736c45b7443b02c79921937da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_11.asset using Guid(bb5a18736c45b7443b02c79921937da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceec7ee11db13b403fe281d585ad765') in 0.027918 seconds 
+  Import took 0.037590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056246 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_12.asset
+  artifactKey: Guid(504faba3d9230514487dde6b039955fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_12.asset using Guid(504faba3d9230514487dde6b039955fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807280f6325953de85dc95650699e45c') in 0.024193 seconds 
+  Import took 0.029634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006165 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_12.asset
+  artifactKey: Guid(504faba3d9230514487dde6b039955fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_12.asset using Guid(504faba3d9230514487dde6b039955fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807280f6325953de85dc95650699e45c') in 0.012182 seconds 
+  Import took 0.020850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088726 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_13.asset
+  artifactKey: Guid(b44222f681c63f04aa12efac9118e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_13.asset using Guid(b44222f681c63f04aa12efac9118e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bf4045a4db768c6f3c6ef86bf32183') in 0.028398 seconds 
+  Import took 0.039245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_14.asset
+  artifactKey: Guid(83731105967dffc44b6caba87bd89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_14.asset using Guid(83731105967dffc44b6caba87bd89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35d488b34e8812eadf1ded44f71336') in 0.022035 seconds 
+  Import took 0.033899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_15.asset
+  artifactKey: Guid(926569ff741f3ef49a0fde9b255979b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_15.asset using Guid(926569ff741f3ef49a0fde9b255979b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ca1881da84cf0921089017d971cd5c') in 0.027449 seconds 
+  Import took 0.033278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_13.asset
+  artifactKey: Guid(b44222f681c63f04aa12efac9118e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_13.asset using Guid(b44222f681c63f04aa12efac9118e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bf4045a4db768c6f3c6ef86bf32183') in 0.018381 seconds 
+  Import took 0.023843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_14.asset
+  artifactKey: Guid(83731105967dffc44b6caba87bd89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_14.asset using Guid(83731105967dffc44b6caba87bd89b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35d488b34e8812eadf1ded44f71336') in 0.013233 seconds 
+  Import took 0.021286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_15.asset
+  artifactKey: Guid(926569ff741f3ef49a0fde9b255979b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_15.asset using Guid(926569ff741f3ef49a0fde9b255979b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ca1881da84cf0921089017d971cd5c') in 0.013371 seconds 
+  Import took 0.018246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_16.asset
+  artifactKey: Guid(93a4d89ea55898a45ac52660a206d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_16.asset using Guid(93a4d89ea55898a45ac52660a206d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5a8217eee985f9168789032f7a51cc') in 0.026130 seconds 
+  Import took 0.035239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_17.asset
+  artifactKey: Guid(4829c9d64dd07884e876619892a58f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_17.asset using Guid(4829c9d64dd07884e876619892a58f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c2c4e60c60ca2b8d2a0b946be9946') in 0.030051 seconds 
+  Import took 0.035997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_18.asset
+  artifactKey: Guid(9bbd0acd2bc1a954b92aa05df7b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_18.asset using Guid(9bbd0acd2bc1a954b92aa05df7b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b96b7ae06e784737bdde6806c7b1951') in 0.026984 seconds 
+  Import took 0.036250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_19.asset
+  artifactKey: Guid(e758314c5333bda4591dd2884613496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_19.asset using Guid(e758314c5333bda4591dd2884613496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8892df40c45ebbb979b87b8fa80c5397') in 0.030791 seconds 
+  Import took 0.042026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_20.asset
+  artifactKey: Guid(2aedd8c719f95f44e8764648d81d030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_20.asset using Guid(2aedd8c719f95f44e8764648d81d030e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badc92153e29084dd25dcd83f964fcc5') in 0.031113 seconds 
+  Import took 0.035673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048597 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_21.asset
+  artifactKey: Guid(c47c8e69b34983a4ca914e8267c6cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_21.asset using Guid(c47c8e69b34983a4ca914e8267c6cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b7185c4b737dc58ff6665e02aac9a1') in 0.024055 seconds 
+  Import took 0.031954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_22.asset
+  artifactKey: Guid(4fd4d239f61c92c469d8e7d254bf8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_22.asset using Guid(4fd4d239f61c92c469d8e7d254bf8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc1ea00530dd5e7abaff96652af3b78') in 0.029908 seconds 
+  Import took 0.040668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_21.asset
+  artifactKey: Guid(c47c8e69b34983a4ca914e8267c6cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_21.asset using Guid(c47c8e69b34983a4ca914e8267c6cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b7185c4b737dc58ff6665e02aac9a1') in 0.015371 seconds 
+  Import took 0.022705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_22.asset
+  artifactKey: Guid(4fd4d239f61c92c469d8e7d254bf8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_22.asset using Guid(4fd4d239f61c92c469d8e7d254bf8e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc1ea00530dd5e7abaff96652af3b78') in 0.013968 seconds 
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061885 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_23.asset
+  artifactKey: Guid(7d6717a8600ed18428dc976d19b1bc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_23.asset using Guid(7d6717a8600ed18428dc976d19b1bc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141b39fc1f3958feb65e58702fb0e65d') in 0.022389 seconds 
+  Import took 0.032707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640340 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_24.asset
+  artifactKey: Guid(2e4ad1df4e15736459d4fd3876bf22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_24.asset using Guid(2e4ad1df4e15736459d4fd3876bf22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5621cd476d59f3b584f710416272b39') in 0.020707 seconds 
+  Import took 0.029825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045476 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_25.asset
+  artifactKey: Guid(eef6fe0b6d595744fb07153c599f6a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_25.asset using Guid(eef6fe0b6d595744fb07153c599f6a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5704f11b08f8c3b2f58b13e042ba1c73') in 0.023846 seconds 
+  Import took 0.031952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506223 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_26.asset
+  artifactKey: Guid(60af4d33cf89f324ba5d46c67b42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_26.asset using Guid(60af4d33cf89f324ba5d46c67b42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401e61d0a16ed8a79c221aa8eab2730b') in 0.024437 seconds 
+  Import took 0.029822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_27.asset
+  artifactKey: Guid(2d1e617991a42c147a6641ae42ffceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_27.asset using Guid(2d1e617991a42c147a6641ae42ffceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b9063a800c6497cfa5df05e04d75b') in 0.039674 seconds 
+  Import took 0.048248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008775 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_27.asset
+  artifactKey: Guid(2d1e617991a42c147a6641ae42ffceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_27.asset using Guid(2d1e617991a42c147a6641ae42ffceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b9063a800c6497cfa5df05e04d75b') in 0.013049 seconds 
+  Import took 0.018023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_28.asset
+  artifactKey: Guid(9ed29fcb0be29234681e131b00017b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_28.asset using Guid(9ed29fcb0be29234681e131b00017b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e95e3e3320fe247d388784f68ccee3') in 0.029947 seconds 
+  Import took 0.039674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058213 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_29.asset
+  artifactKey: Guid(d5f58214526c6fb48a14f130ae36a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_29.asset using Guid(d5f58214526c6fb48a14f130ae36a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1602ed3a59003a5967416839d8dd8e') in 0.024023 seconds 
+  Import took 0.032923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116939 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_30.asset
+  artifactKey: Guid(000b5f13e1c36ce4aae545dd349f50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_30.asset using Guid(000b5f13e1c36ce4aae545dd349f50cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf10d4cd48fff2e3ba4dbac0d7d44c56') in 0.031851 seconds 
+  Import took 0.047802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220646 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_31.asset
+  artifactKey: Guid(518f5ea9a6e30714babc6ca4ff32f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_31.asset using Guid(518f5ea9a6e30714babc6ca4ff32f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f793d266615887eb7cbcb75cbe2f5a36') in 0.024683 seconds 
+  Import took 0.033369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009914 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_31.asset
+  artifactKey: Guid(518f5ea9a6e30714babc6ca4ff32f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_31.asset using Guid(518f5ea9a6e30714babc6ca4ff32f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f793d266615887eb7cbcb75cbe2f5a36') in 0.018366 seconds 
+  Import took 0.031398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069237 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_32.asset
+  artifactKey: Guid(8599e006e5f242e40aa81bd57da4312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_32.asset using Guid(8599e006e5f242e40aa81bd57da4312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a0bddee2ce3119e01cfca61596a5bb') in 0.026928 seconds 
+  Import took 0.036218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_33.asset
+  artifactKey: Guid(759de4ed23131a049af0c2c1c0fa8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_33.asset using Guid(759de4ed23131a049af0c2c1c0fa8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf1df39e12a3814f403b0a11451e08b') in 0.027032 seconds 
+  Import took 0.037774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_32.asset
+  artifactKey: Guid(8599e006e5f242e40aa81bd57da4312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_32.asset using Guid(8599e006e5f242e40aa81bd57da4312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a0bddee2ce3119e01cfca61596a5bb') in 0.013357 seconds 
+  Import took 0.020901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_33.asset
+  artifactKey: Guid(759de4ed23131a049af0c2c1c0fa8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_33.asset using Guid(759de4ed23131a049af0c2c1c0fa8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf1df39e12a3814f403b0a11451e08b') in 0.015865 seconds 
+  Import took 0.021488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019791 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_34.asset
+  artifactKey: Guid(d693a3352a72d1741aaeecd6704b287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_34.asset using Guid(d693a3352a72d1741aaeecd6704b287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f241510387550a73196f7d51efaea572') in 0.026324 seconds 
+  Import took 0.035553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088879 seconds.
+  path: Assets/地形拼接/TX Tileset Grass_35.asset
+  artifactKey: Guid(52ee165a8bbe2be47a680496b9f72fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Grass_35.asset using Guid(52ee165a8bbe2be47a680496b9f72fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bea25d4b7e741ba378aa3f37c339bc8') in 0.022207 seconds 
+  Import took 0.030960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.260133 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_14.asset
+  artifactKey: Guid(7007241ddca1fc44da657e5222262091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_14.asset using Guid(7007241ddca1fc44da657e5222262091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0280d90a58e1702736c5b56d84182c') in 0.026061 seconds 
+  Import took 0.038803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_16.asset
+  artifactKey: Guid(568a3739a248f7640a6c270e7b51c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_16.asset using Guid(568a3739a248f7640a6c270e7b51c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4ef383d865027aa3a28ba06f15892d') in 0.027331 seconds 
+  Import took 0.036515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_15.asset
+  artifactKey: Guid(94aa55a4e0f6b8141be749f1b45c8137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_15.asset using Guid(94aa55a4e0f6b8141be749f1b45c8137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70510bea716d724262e5de6b037c927') in 0.026199 seconds 
+  Import took 0.036554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_25.asset
+  artifactKey: Guid(2af6c066fce9fd9438e205801ccd88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_25.asset using Guid(2af6c066fce9fd9438e205801ccd88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f6311127624a310837580d9fb9121') in 0.031144 seconds 
+  Import took 0.041605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_29.asset
+  artifactKey: Guid(bcceb690a1f61c741855707b7d58add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_29.asset using Guid(bcceb690a1f61c741855707b7d58add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cb7ce7837c7c5ccb928d1eb05d84a1') in 0.033325 seconds 
+  Import took 0.042644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_31.asset
+  artifactKey: Guid(b97e421a85e8fee46bdd481f7905af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_31.asset using Guid(b97e421a85e8fee46bdd481f7905af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b8e850c728653f69be6cee736bc27e') in 0.026229 seconds 
+  Import took 0.037958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_43.asset
+  artifactKey: Guid(338bed1946b096c4b949f71a839b9f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_43.asset using Guid(338bed1946b096c4b949f71a839b9f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926e676ccad4093f01b8d5df76414f01') in 0.033055 seconds 
+  Import took 0.040161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_59.asset
+  artifactKey: Guid(6727145152bb6804f9a5b3d233ea54a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_59.asset using Guid(6727145152bb6804f9a5b3d233ea54a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e2b15bb583e443f282120cf900734d') in 0.037880 seconds 
+  Import took 0.046378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_69.asset
+  artifactKey: Guid(116aba5c2144ad44abb7f5d1a371cd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_69.asset using Guid(116aba5c2144ad44abb7f5d1a371cd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c281dba4be11f1c36f0a54ec16b65b') in 0.038051 seconds 
+  Import took 0.051552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_3.asset
+  artifactKey: Guid(9fa33d6b9ef7b9a4db3bd1a1300191b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_3.asset using Guid(9fa33d6b9ef7b9a4db3bd1a1300191b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1b7977619cd1b8ba2639a49ba03dd5') in 0.039467 seconds 
+  Import took 0.050515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_4.asset
+  artifactKey: Guid(290afdfe42a84e249882f553cc5d2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_4.asset using Guid(290afdfe42a84e249882f553cc5d2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05346fbee152f43241cbadbf1bb1598e') in 0.031464 seconds 
+  Import took 0.041224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_0.asset
+  artifactKey: Guid(b6268c0370ea70c4dbdd342fbc616ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_0.asset using Guid(b6268c0370ea70c4dbdd342fbc616ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3ef9b4dc9531e463b20e9d3079ad9d') in 0.030824 seconds 
+  Import took 0.035896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_11.asset
+  artifactKey: Guid(01bbf789118e14342a4f6274e76906c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_11.asset using Guid(01bbf789118e14342a4f6274e76906c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bb2e5ed9230c3eabb9ead40c10e8d0') in 0.029342 seconds 
+  Import took 0.037915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_12.asset
+  artifactKey: Guid(6eeec7a6c3163cf42b0920ea85f80d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_12.asset using Guid(6eeec7a6c3163cf42b0920ea85f80d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9536e268b6f0a5115c319bb975b905a0') in 0.030001 seconds 
+  Import took 0.041145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_55.asset
+  artifactKey: Guid(485db4ef1e95dfb47b2e1f5e5adc2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_55.asset using Guid(485db4ef1e95dfb47b2e1f5e5adc2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b100b9197b263a42a8948e4dd6bbcc21') in 0.028159 seconds 
+  Import took 0.036853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_6.asset
+  artifactKey: Guid(4137967d432ee2d42a087207baaed383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_6.asset using Guid(4137967d432ee2d42a087207baaed383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc5cc73722ee898926b0bfaba519517') in 0.028075 seconds 
+  Import took 0.037923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_8.asset
+  artifactKey: Guid(3d2cd02ae7b644c42ad8bd8ba86a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_8.asset using Guid(3d2cd02ae7b644c42ad8bd8ba86a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918bcff5c5c0dbf9ed06e7c75b34e441') in 0.027700 seconds 
+  Import took 0.035404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_58.asset
+  artifactKey: Guid(7a3217b8fdb0f0c4e9fac149e9d76495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_58.asset using Guid(7a3217b8fdb0f0c4e9fac149e9d76495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766c70449b2526c513ec9c66405b4a0') in 0.029451 seconds 
+  Import took 0.038676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_8.asset
+  artifactKey: Guid(3d2cd02ae7b644c42ad8bd8ba86a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_8.asset using Guid(3d2cd02ae7b644c42ad8bd8ba86a789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918bcff5c5c0dbf9ed06e7c75b34e441') in 0.022683 seconds 
+  Import took 0.029884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_13.asset
+  artifactKey: Guid(1c9946f301961a44b9abd9eafd56d15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_13.asset using Guid(1c9946f301961a44b9abd9eafd56d15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2f57cc79457adcf587e90a863fae34') in 0.026271 seconds 
+  Import took 0.033373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_17.asset
+  artifactKey: Guid(de100344871c80f4ea62487baeb56eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_17.asset using Guid(de100344871c80f4ea62487baeb56eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f1c789a7a869294f9a230fe0c9479d') in 0.030168 seconds 
+  Import took 0.036974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_70.asset
+  artifactKey: Guid(d39e4348ca1f2aa45806925e97b9112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_70.asset using Guid(d39e4348ca1f2aa45806925e97b9112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e484cd623b82d267ae5801c6ade826') in 0.033461 seconds 
+  Import took 0.040790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_44.asset
+  artifactKey: Guid(ed7e0b569ba224742b8d486fff76b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_44.asset using Guid(ed7e0b569ba224742b8d486fff76b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c466ab6a41baab84292ac33b853be6cc') in 0.024704 seconds 
+  Import took 0.031018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_56.asset
+  artifactKey: Guid(413b72ad3debac045a4b35db67f0c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_56.asset using Guid(413b72ad3debac045a4b35db67f0c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bb3cbbd9589acaca93b4e9964ce77f') in 0.034062 seconds 
+  Import took 0.043950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_71.asset
+  artifactKey: Guid(0fc061f55994d5a4aa52324bbbf76525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_71.asset using Guid(0fc061f55994d5a4aa52324bbbf76525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31bd5927e789bb38170b528c42da270') in 0.033724 seconds 
+  Import took 0.043901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_14.asset
+  artifactKey: Guid(d4d0b5df61584f7408377a30b015a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_14.asset using Guid(d4d0b5df61584f7408377a30b015a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37daf39424d85b1bd87514fca33fb689') in 0.028562 seconds 
+  Import took 0.038056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_7.asset
+  artifactKey: Guid(0671688824308db4b9ed7dd1c1a37250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_7.asset using Guid(0671688824308db4b9ed7dd1c1a37250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b840c1fcc15c9888371b0ea70d22ea') in 0.033463 seconds 
+  Import took 0.042034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_23.asset
+  artifactKey: Guid(fa15a61744e9daa4db6c2fa68ebba5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_23.asset using Guid(fa15a61744e9daa4db6c2fa68ebba5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f896c4d07640b73a8ce54a59ed0317b') in 0.031827 seconds 
+  Import took 0.043450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_28.asset
+  artifactKey: Guid(3065a9d9c7691a44ea373a0a27a40bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_28.asset using Guid(3065a9d9c7691a44ea373a0a27a40bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd9112d87567de2c0a5fab444eba157') in 0.037486 seconds 
+  Import took 0.046701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_45.asset
+  artifactKey: Guid(822f01c59161f8e49b14e1f600c405bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_45.asset using Guid(822f01c59161f8e49b14e1f600c405bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888bed80271f53a4e91c9990afa176bc') in 0.028086 seconds 
+  Import took 0.034718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_18.asset
+  artifactKey: Guid(5e016a6ee1351ab4da50baf10f7d56ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_18.asset using Guid(5e016a6ee1351ab4da50baf10f7d56ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6bd871996c20f15e738d274c0c0feb') in 0.029640 seconds 
+  Import took 0.039832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_21.asset
+  artifactKey: Guid(5729979ccc3797c4fa5f7556c1189a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_21.asset using Guid(5729979ccc3797c4fa5f7556c1189a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a04d5dfdd80818128b0093982321e4c') in 0.034174 seconds 
+  Import took 0.043819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_72.asset
+  artifactKey: Guid(a067f51a580ad874281cba5ec6c7ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_72.asset using Guid(a067f51a580ad874281cba5ec6c7ebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f4525f4761890512e48d315d6a8dd0') in 0.033952 seconds 
+  Import took 0.044813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_19.asset
+  artifactKey: Guid(51b9cc8e49a2cf34082caac3eaeb0c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_19.asset using Guid(51b9cc8e49a2cf34082caac3eaeb0c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1301b2f616a894a374882b09ec1e9992') in 0.037159 seconds 
+  Import took 0.047340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_17.asset
+  artifactKey: Guid(687d21a487f03944ca931ce01db77720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_17.asset using Guid(687d21a487f03944ca931ce01db77720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864849652973595395bae35c395fc08e') in 0.029380 seconds 
+  Import took 0.041600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_47.asset
+  artifactKey: Guid(45052174ce41da440928b50cb51f0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_47.asset using Guid(45052174ce41da440928b50cb51f0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42960d5fe9d5bb0f80e33325356545d3') in 0.031046 seconds 
+  Import took 0.042327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_22.asset
+  artifactKey: Guid(783c27ca63ec2d94c92a291da51ee3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_22.asset using Guid(783c27ca63ec2d94c92a291da51ee3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23c6519ff11995eacb837537117c915') in 0.028941 seconds 
+  Import took 0.035755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_22.asset
+  artifactKey: Guid(4f8080a9f4b853a429f5e1b8828cef7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_22.asset using Guid(4f8080a9f4b853a429f5e1b8828cef7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f3ee945822f69aee6ab1d9901e42b2') in 0.034605 seconds 
+  Import took 0.040754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_24.asset
+  artifactKey: Guid(9f286d26e6bdc2d438e8a5cbd51439d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_24.asset using Guid(9f286d26e6bdc2d438e8a5cbd51439d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1016043530d299d9f74575b1b181fb') in 0.028353 seconds 
+  Import took 0.038784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_60.asset
+  artifactKey: Guid(39d8d7996b02d2d428089ef364f33294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_60.asset using Guid(39d8d7996b02d2d428089ef364f33294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7d3ec045f56b45a8fe2c193be5db2') in 0.031152 seconds 
+  Import took 0.037346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/地形拼接/場景道具/TX Struct_7.asset
+  artifactKey: Guid(e0854724175908046b5e27f248859541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Struct_7.asset using Guid(e0854724175908046b5e27f248859541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb729da4a6e32dc006ad06d0dc27c15') in 0.028023 seconds 
+  Import took 0.039034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_15.asset
+  artifactKey: Guid(342f7efe9086ea54ca6b915cb1b4d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_15.asset using Guid(342f7efe9086ea54ca6b915cb1b4d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99ea463eef64a82a20df7a6fe485a1') in 0.029295 seconds 
+  Import took 0.039146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_73.asset
+  artifactKey: Guid(b6a42c2c8d7a42c4ca48fff57e41387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_73.asset using Guid(b6a42c2c8d7a42c4ca48fff57e41387e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93febfcf6803afa1eb985d462d1706b') in 0.035626 seconds 
+  Import took 0.042828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_16.asset
+  artifactKey: Guid(c5ac323f5904fef4aab0790ddaf2f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_16.asset using Guid(c5ac323f5904fef4aab0790ddaf2f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebba20175224bbfdf2512842973d7641') in 0.031330 seconds 
+  Import took 0.043137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_30.asset
+  artifactKey: Guid(b21cdd217961f684aadb6493f2e64781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_30.asset using Guid(b21cdd217961f684aadb6493f2e64781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7529ac5197e4d5d234cf9da5c950b5') in 0.030306 seconds 
+  Import took 0.037011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_46.asset
+  artifactKey: Guid(7e3882c8790c7fc41be46bb5bf4399a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_46.asset using Guid(7e3882c8790c7fc41be46bb5bf4399a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d37795ab00f1fa3fa9864cfdfaa9df') in 0.038174 seconds 
+  Import took 0.045117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_32.asset
+  artifactKey: Guid(6575f751941c487419c9777eafce1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_32.asset using Guid(6575f751941c487419c9777eafce1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8a72015382e663f65b986e23bfcba5') in 0.026890 seconds 
+  Import took 0.037815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_1.asset
+  artifactKey: Guid(45786826b88d6e043b138885f6ccbdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_1.asset using Guid(45786826b88d6e043b138885f6ccbdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf6701ce654e50d930bc6fe65f93833') in 0.036428 seconds 
+  Import took 0.046299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_21.asset
+  artifactKey: Guid(d2e15d190fe34774d88020853d801864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_21.asset using Guid(d2e15d190fe34774d88020853d801864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f6b73c42005a987101ca5aa8a91353') in 0.029806 seconds 
+  Import took 0.036578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_2.asset
+  artifactKey: Guid(f300a1f2179086047b90a9a027da5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_2.asset using Guid(f300a1f2179086047b90a9a027da5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a41ae4017d4a4b90a62c6762d820db5') in 0.030218 seconds 
+  Import took 0.037974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_48.asset
+  artifactKey: Guid(a3d1af82c7d37d24d8525f55c5b58d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_48.asset using Guid(a3d1af82c7d37d24d8525f55c5b58d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42744d0c4059d7e0fc9cc580f1bd80fe') in 0.034928 seconds 
+  Import took 0.041585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_5.asset
+  artifactKey: Guid(bd39968dd8c6970489498485f28f13ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_5.asset using Guid(bd39968dd8c6970489498485f28f13ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f873bba1c4dcf064a2447519917d4') in 0.028843 seconds 
+  Import took 0.038751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_57.asset
+  artifactKey: Guid(cd655fdf7c5b4604da40c56623960226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_57.asset using Guid(cd655fdf7c5b4604da40c56623960226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170db25ad1f665dfa9e171baa0cc4b29') in 0.030223 seconds 
+  Import took 0.040073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_9.asset
+  artifactKey: Guid(8c20a629c2f7917488be70438ba80ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_9.asset using Guid(8c20a629c2f7917488be70438ba80ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a121ea34034858f4066228f4a48458b2') in 0.027128 seconds 
+  Import took 0.036985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_18.asset
+  artifactKey: Guid(9769bd0a1977f1644a21b921dd02667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_18.asset using Guid(9769bd0a1977f1644a21b921dd02667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5ef0b6c890c8579d71ad8ddac4d3de') in 0.034388 seconds 
+  Import took 0.041222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_20.asset
+  artifactKey: Guid(d118f46d1160941418805ab435b19065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_20.asset using Guid(d118f46d1160941418805ab435b19065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1377d6cca05c591f49306337a35714d3') in 0.033288 seconds 
+  Import took 0.040744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_10.asset
+  artifactKey: Guid(188ddfa55266c1d449631e36773b37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_10.asset using Guid(188ddfa55266c1d449631e36773b37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf252a89777ac96005fa1c7729c9840f') in 0.026799 seconds 
+  Import took 0.033881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/地形拼接/場景道具/TX Plant_24.asset
+  artifactKey: Guid(636402a6329cbfb4b8c2901f9b393c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/TX Plant_24.asset using Guid(636402a6329cbfb4b8c2901f9b393c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8775c2f89be5a7f68243a2b6df7c3ee3') in 0.036507 seconds 
+  Import took 0.044328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_23.asset
+  artifactKey: Guid(c92fa7f01a0658c42ab583a19e6f57a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_23.asset using Guid(c92fa7f01a0658c42ab583a19e6f57a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad69cea6a6743256a5efdfb1b50cb8b6') in 0.035440 seconds 
+  Import took 0.043533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_20.asset
+  artifactKey: Guid(0d8526c13703be946af9a10711f895ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_20.asset using Guid(0d8526c13703be946af9a10711f895ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a6259d90036d19a2d1fb19c21a9cae') in 0.025830 seconds 
+  Import took 0.036348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_19.asset
+  artifactKey: Guid(1538eec78364295498460c0f3f01c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_19.asset using Guid(1538eec78364295498460c0f3f01c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0223c0c3aba157822c1debaec4e578') in 0.032982 seconds 
+  Import took 0.039795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_33.asset
+  artifactKey: Guid(c710726edac7707498429547d38e9ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_33.asset using Guid(c710726edac7707498429547d38e9ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b753ad854a1faf59d8362c13a4092109') in 0.030310 seconds 
+  Import took 0.040701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211739 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_68.asset
+  artifactKey: Guid(97725b5a3f77564489b626d11e4d1126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_68.asset using Guid(97725b5a3f77564489b626d11e4d1126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ab1c47b79defb05297fd7b68fff278') in 0.024160 seconds 
+  Import took 0.029700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190701 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_67.asset
+  artifactKey: Guid(103800431aded4b459bc433f8bfefeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_67.asset using Guid(103800431aded4b459bc433f8bfefeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bfeee8182481b530c7d54de74b0736') in 0.024265 seconds 
+  Import took 0.034843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087850 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_66.asset
+  artifactKey: Guid(6d8f3c194bab05a44ad428f7836de8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_66.asset using Guid(6d8f3c194bab05a44ad428f7836de8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5946b380b67d2ef693c6951efb8c899b') in 0.027724 seconds 
+  Import took 0.032844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008570 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_65.asset
+  artifactKey: Guid(d2fa71a924ff5eb4386d825907088154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_65.asset using Guid(d2fa71a924ff5eb4386d825907088154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17554e914800df6db3aafcfb37d65049') in 0.027727 seconds 
+  Import took 0.035112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064188 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_64.asset
+  artifactKey: Guid(00efa5b39aeb91947880f8fe97b6ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_64.asset using Guid(00efa5b39aeb91947880f8fe97b6ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb534438e4a7a483d0a1e0030b07af') in 0.037832 seconds 
+  Import took 0.044636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006984 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_63.asset
+  artifactKey: Guid(7116362cea151414cacf36e4fc653184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_63.asset using Guid(7116362cea151414cacf36e4fc653184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dfedf6cd3065abac25d61135b6da61') in 0.027167 seconds 
+  Import took 0.034254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120549 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_62.asset
+  artifactKey: Guid(8b985d5ba708e894eb48e4171c500768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_62.asset using Guid(8b985d5ba708e894eb48e4171c500768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea81f0e9fd3325e524d775850c72f6c') in 0.026343 seconds 
+  Import took 0.031081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_62.asset
+  artifactKey: Guid(8b985d5ba708e894eb48e4171c500768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_62.asset using Guid(8b985d5ba708e894eb48e4171c500768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea81f0e9fd3325e524d775850c72f6c') in 0.012250 seconds 
+  Import took 0.017475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074942 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_61.asset
+  artifactKey: Guid(5c28450b7a778ce4883f8b82e280ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_61.asset using Guid(5c28450b7a778ce4883f8b82e280ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcadae4b307e778e2706ba5422231e3c') in 0.028453 seconds 
+  Import took 0.034890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005622 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_61.asset
+  artifactKey: Guid(5c28450b7a778ce4883f8b82e280ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_61.asset using Guid(5c28450b7a778ce4883f8b82e280ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcadae4b307e778e2706ba5422231e3c') in 0.015476 seconds 
+  Import took 0.021382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.218405 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_54.asset
+  artifactKey: Guid(c5409610eaeabf643973d42af4061ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_54.asset using Guid(c5409610eaeabf643973d42af4061ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2927c77cd81401fdd75c3b9f8455f3') in 0.021597 seconds 
+  Import took 0.029580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062885 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_53.asset
+  artifactKey: Guid(4c128f7470af5944dbc25a956c45f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_53.asset using Guid(4c128f7470af5944dbc25a956c45f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4766b1136a5a8fc53598ff6eb2354ce6') in 0.021960 seconds 
+  Import took 0.029827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.659443 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_52.asset
+  artifactKey: Guid(575aedf5a10963b4ea34b7b2d2ba05e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_52.asset using Guid(575aedf5a10963b4ea34b7b2d2ba05e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba63ed78565731cbe56c2d882579f5') in 0.024202 seconds 
+  Import took 0.033020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_51.asset
+  artifactKey: Guid(d9eb8052ace03ce4fa9d8707ee220681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_51.asset using Guid(d9eb8052ace03ce4fa9d8707ee220681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88701fd6eb6ce3d931ffca4c7dfc418') in 0.031632 seconds 
+  Import took 0.036898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001731 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_49.asset
+  artifactKey: Guid(c389ca44f60997242b5137ee4e491deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_49.asset using Guid(c389ca44f60997242b5137ee4e491deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76071a8f4e04dbe016558f904524c814') in 0.031320 seconds 
+  Import took 0.039680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_50.asset
+  artifactKey: Guid(222117dfa66d4654bbbf1886fa9425a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_50.asset using Guid(222117dfa66d4654bbbf1886fa9425a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bb4668bcdcc4892966268702d4883f') in 0.026577 seconds 
+  Import took 0.037795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031856 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_42.asset
+  artifactKey: Guid(25167c4df7e1a514eadde113718fa58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_42.asset using Guid(25167c4df7e1a514eadde113718fa58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5417905c0e9800c0319bcfd714650dca') in 0.033858 seconds 
+  Import took 0.041169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008088 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_39.asset
+  artifactKey: Guid(c2fabc73f5f2a8f419e8db039e8da16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_39.asset using Guid(c2fabc73f5f2a8f419e8db039e8da16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439658879367b351e7772e9746a0aa91') in 0.026032 seconds 
+  Import took 0.035755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_41.asset
+  artifactKey: Guid(66423029ad0cb4a40a339e244f42a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_41.asset using Guid(66423029ad0cb4a40a339e244f42a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039585e04b041ffc9a94cac530dbc702') in 0.034063 seconds 
+  Import took 0.039744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_36.asset
+  artifactKey: Guid(e6bcb9f2df88fff46b8baea80c35ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_36.asset using Guid(e6bcb9f2df88fff46b8baea80c35ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8665bc4b8da5b89274b7eef92415227') in 0.043484 seconds 
+  Import took 0.051398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_37.asset
+  artifactKey: Guid(7fbca34798612b449a003c161b9d7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_37.asset using Guid(7fbca34798612b449a003c161b9d7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad809382d08970c858a0b552b76d0e') in 0.034668 seconds 
+  Import took 0.041357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_35.asset
+  artifactKey: Guid(b6158631bc85a4c42aff24e727aa3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_35.asset using Guid(b6158631bc85a4c42aff24e727aa3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ae60a272c33c24981c830eaa0a364d') in 0.031574 seconds 
+  Import took 0.037539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_40.asset
+  artifactKey: Guid(bf04ab3635e5ca244a2b417fcdd16fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_40.asset using Guid(bf04ab3635e5ca244a2b417fcdd16fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a3ae39b190fb4faa173d4fab657738') in 0.028912 seconds 
+  Import took 0.040218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_34.asset
+  artifactKey: Guid(e5d0ffb1f4fbcc947bc834980f3a82fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_34.asset using Guid(e5d0ffb1f4fbcc947bc834980f3a82fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36bf027c09b2369e3c94d90cac65b0') in 0.026289 seconds 
+  Import took 0.031123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_38.asset
+  artifactKey: Guid(f0a746b9136c2e948899d900ec9e0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_38.asset using Guid(f0a746b9136c2e948899d900ec9e0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ca344094f16f43064b15debea1fbdc') in 0.033842 seconds 
+  Import took 0.042033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_27.asset
+  artifactKey: Guid(1559f456bbb2fd84c8793518c8aea392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_27.asset using Guid(1559f456bbb2fd84c8793518c8aea392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab1d819334c1501b388d856b5757018') in 0.030375 seconds 
+  Import took 0.036529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/地形拼接/場景道具/mainlevbuild_26.asset
+  artifactKey: Guid(0b162b3921c3d6648a21580b68a0b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/場景道具/mainlevbuild_26.asset using Guid(0b162b3921c3d6648a21580b68a0b034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c62a0d06f5a8295202c22ce54cd32d') in 0.027716 seconds 
+  Import took 0.034938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.442658 seconds.
+  path: Assets/圖片/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Texture/TX Tileset Stone Ground.png using Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0db9d72f83f37fc83a426d10e45c7b5') in 0.052734 seconds 
+  Import took 0.058807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.565960 seconds.
+  path: Assets/圖片/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Texture/TX Tileset Stone Ground.png using Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10531a73b84ca13f69925f0bd6cadb3a') in 0.170564 seconds 
+  Import took 0.177343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.798991 seconds.
+  path: Assets/預製物/TX Tileset Stone Ground_0.prefab
+  artifactKey: Guid(63414d30edef7d74aa787b3f9ab32996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/TX Tileset Stone Ground_0.prefab using Guid(63414d30edef7d74aa787b3f9ab32996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85b86f1cae0e9a8ca4fa2dd0781d689') in 0.056035 seconds 
+  Import took 0.065209 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2599.
+Total: 3.070600 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.585600 ms  DeleteObjects: 0.128700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.212439 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8893a29617762b2a5493c5e240bfd225') in 0.104243 seconds 
+  Import took 0.108549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.658723 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26be8176e02cb1555d7d859ed496892c') in 0.056814 seconds 
+  Import took 0.062604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.591366 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a60e2080682ad652d07f10265dd5b52') in 0.063624 seconds 
+  Import took 0.069104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.157326 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd875e7e2a12e96e06ac54dc95ef062bf') in 0.071190 seconds 
+  Import took 0.075794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.812466 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73967afb40770d67dba62855f9a50259') in 0.071846 seconds 
+  Import took 0.085383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.512088 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627af6dd3d8c9439e257aa2f2ac4266c') in 0.065171 seconds 
+  Import took 0.073581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.827260 seconds.
+  path: Assets/素材/pipo-nekonin008.png
+  artifactKey: Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin008.png using Guid(e5f44a71ef7339441bc3de290863cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c0e126e7a97f5ea88a5c7b7ed6f33a') in 0.077999 seconds 
+  Import took 0.088277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.611693 seconds.
+  path: Assets/地形拼接/New Palette.prefab
+  artifactKey: Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/New Palette.prefab using Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2ee9fc6fdbac11040b1bc560b8954c') in 0.020758 seconds 
+  Import took 0.025684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.582867 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_0.asset
+  artifactKey: Guid(30d424ce65e5dfc4eab0ff757ee90201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_0.asset using Guid(30d424ce65e5dfc4eab0ff757ee90201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b40127b507d155c25c8e88d4a43ec') in 0.024317 seconds 
+  Import took 0.028972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_2.asset
+  artifactKey: Guid(b61479f6e6aa19c4eaa20528f302e40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_2.asset using Guid(b61479f6e6aa19c4eaa20528f302e40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa589f8483c1d287438d6b5a765e29d4') in 0.023706 seconds 
+  Import took 0.028675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_3.asset
+  artifactKey: Guid(c3ffb2f78bd74b842bb737418f108934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_3.asset using Guid(c3ffb2f78bd74b842bb737418f108934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0208775b724b4ae3e376989e4215f273') in 0.032391 seconds 
+  Import took 0.040667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_6.asset
+  artifactKey: Guid(e95d3c285879fe94095bb64494cb8688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_6.asset using Guid(e95d3c285879fe94095bb64494cb8688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf1060a419d8392156166899f8c331') in 0.027731 seconds 
+  Import took 0.034123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_4.asset
+  artifactKey: Guid(b5ddf6cf90a7fdf46ab3a64e998898b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_4.asset using Guid(b5ddf6cf90a7fdf46ab3a64e998898b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f44612750befe82056d6ac3e314bac1') in 0.031785 seconds 
+  Import took 0.037630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_8.asset
+  artifactKey: Guid(f3a05b5009f742a4dabb54e7bb02c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_8.asset using Guid(f3a05b5009f742a4dabb54e7bb02c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5c0b82c717e28ca90ab4caa20fb015') in 0.026162 seconds 
+  Import took 0.034827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_20.asset
+  artifactKey: Guid(14e5508c4dd68eb4c9e85d54ee968f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_20.asset using Guid(14e5508c4dd68eb4c9e85d54ee968f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323f9a3232b7ac67549f564dfba9b333') in 0.031234 seconds 
+  Import took 0.036975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_10.asset
+  artifactKey: Guid(111fc1e0143819e40b25740741e65aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_10.asset using Guid(111fc1e0143819e40b25740741e65aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08a26a2399ff1cfa09d2d036ed35103') in 0.024612 seconds 
+  Import took 0.029455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_28.asset
+  artifactKey: Guid(e948487beac15a144a97254d8021b0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_28.asset using Guid(e948487beac15a144a97254d8021b0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c2a7542bced1d5fe3c4e7207381526') in 0.028242 seconds 
+  Import took 0.033095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_29.asset
+  artifactKey: Guid(c4f2350634d8a864680858372bde9f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_29.asset using Guid(c4f2350634d8a864680858372bde9f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb1fe490bdbfecf3b6dc31919b53688') in 0.028138 seconds 
+  Import took 0.033331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_32.asset
+  artifactKey: Guid(8292f25ec3c85df4682ef9bdf28d5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_32.asset using Guid(8292f25ec3c85df4682ef9bdf28d5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af4f5cc5f9a6ae182593c340afcb66') in 0.030389 seconds 
+  Import took 0.035391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_1.asset
+  artifactKey: Guid(8d6bf739611b95347af5462c21e09cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_1.asset using Guid(8d6bf739611b95347af5462c21e09cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa24639ce54375f9f63fc173e9a31427') in 0.026842 seconds 
+  Import took 0.034544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_35.asset
+  artifactKey: Guid(4e2a543e9ece3534bb279d88c49ff54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_35.asset using Guid(4e2a543e9ece3534bb279d88c49ff54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41695f5497b294fb0af938e738958fa') in 0.029637 seconds 
+  Import took 0.038318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_33.asset
+  artifactKey: Guid(7717875787be13245a50ad230e659a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_33.asset using Guid(7717875787be13245a50ad230e659a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2e150ef6659b5cbe11b51674fdf349') in 0.023581 seconds 
+  Import took 0.029054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_39.asset
+  artifactKey: Guid(474c612f42d6ad64da9c42589f11d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_39.asset using Guid(474c612f42d6ad64da9c42589f11d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a953d9de8327048fbac53046d4ad115b') in 0.031460 seconds 
+  Import took 0.037317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_37.asset
+  artifactKey: Guid(5875b5fd36cc13c488ff3b37f637cd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_37.asset using Guid(5875b5fd36cc13c488ff3b37f637cd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4871e7167d167a2c72e5dd15d6e01467') in 0.024596 seconds 
+  Import took 0.035277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_45.asset
+  artifactKey: Guid(89c1e1f1637028247ae4c4d36d3cd876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_45.asset using Guid(89c1e1f1637028247ae4c4d36d3cd876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40711157fce1eb248918576e33b00537') in 0.030513 seconds 
+  Import took 0.036804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_47.asset
+  artifactKey: Guid(3c383766ab3175d4ebd9e29ccfdd8b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_47.asset using Guid(3c383766ab3175d4ebd9e29ccfdd8b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280de1c08cee5fa6d54b152171282162') in 0.031175 seconds 
+  Import took 0.037096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_49.asset
+  artifactKey: Guid(dafed1b0f56b8aa4eb216bed9dade86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_49.asset using Guid(dafed1b0f56b8aa4eb216bed9dade86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341c260c8ed8a9677cad7da35c8c5b92') in 0.026456 seconds 
+  Import took 0.034124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_48.asset
+  artifactKey: Guid(8fcaa1bd79505844581b6d80ebe47186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_48.asset using Guid(8fcaa1bd79505844581b6d80ebe47186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0513f8a135bd789bcec8f236c8db9cef') in 0.030054 seconds 
+  Import took 0.034805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_41.asset
+  artifactKey: Guid(97ae6bd6fd074684e990ba502c3aef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_41.asset using Guid(97ae6bd6fd074684e990ba502c3aef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ec13eae700b22ac3b487f88c57e55') in 0.027487 seconds 
+  Import took 0.033712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_42.asset
+  artifactKey: Guid(42ab75e37873ec34e833c62f9cf3f5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_42.asset using Guid(42ab75e37873ec34e833c62f9cf3f5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0853480d32b5cc0edd3c18782fd7dc38') in 0.030967 seconds 
+  Import took 0.038733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_34.asset
+  artifactKey: Guid(a4147858de5d02d46a706b35ce030ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_34.asset using Guid(a4147858de5d02d46a706b35ce030ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f663aeb78b6b31b12ca0356d4db68caa') in 0.031239 seconds 
+  Import took 0.039921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_24.asset
+  artifactKey: Guid(be3b7f89dd2c46c4e997dedb57bb4822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_24.asset using Guid(be3b7f89dd2c46c4e997dedb57bb4822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c28b65ae860d0cbb86fe2865d721dfc') in 0.031657 seconds 
+  Import took 0.037579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_27.asset
+  artifactKey: Guid(8dd85c29ba14b61439afcc2ed33269ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_27.asset using Guid(8dd85c29ba14b61439afcc2ed33269ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e5e580660bbc024add2d24f1323834') in 0.025649 seconds 
+  Import took 0.034334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_36.asset
+  artifactKey: Guid(0240ae7a0615d1b4ba540aa844a7c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_36.asset using Guid(0240ae7a0615d1b4ba540aa844a7c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8081aad80a695bcaa02e37cab980461') in 0.028051 seconds 
+  Import took 0.037885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_40.asset
+  artifactKey: Guid(6f014be584ed21249807dd66347f9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_40.asset using Guid(6f014be584ed21249807dd66347f9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002e5878f980ba041d06bba607a82f6') in 0.028836 seconds 
+  Import took 0.034807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_44.asset
+  artifactKey: Guid(3bef861647543354a86cafe2bcc9523f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_44.asset using Guid(3bef861647543354a86cafe2bcc9523f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6c7a66232e1015e670ce00fe3ed3dc') in 0.028164 seconds 
+  Import took 0.038176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_46.asset
+  artifactKey: Guid(3dab31abecc732a408f4271a57d1a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_46.asset using Guid(3dab31abecc732a408f4271a57d1a85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8279bb1ec92e8f25cd3f5200a74d5694') in 0.029849 seconds 
+  Import took 0.035582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_17.asset
+  artifactKey: Guid(272e3075aaf1a14448fa26d6448c9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_17.asset using Guid(272e3075aaf1a14448fa26d6448c9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5eb1503261757fc6822432d66c55c') in 0.025483 seconds 
+  Import took 0.034487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_11.asset
+  artifactKey: Guid(916b056d80cb3e748a2ee6eeb868f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_11.asset using Guid(916b056d80cb3e748a2ee6eeb868f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1a9807f712f0697bdd19b013f1d687') in 0.024935 seconds 
+  Import took 0.031894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_21.asset
+  artifactKey: Guid(f14b3236e26f2c5408f21bd77d8b693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_21.asset using Guid(f14b3236e26f2c5408f21bd77d8b693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5ba0026f6d5bb2661a89345ae2ca84') in 0.028459 seconds 
+  Import took 0.036106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_25.asset
+  artifactKey: Guid(2e8437fcecc5b7145bb1a9c97fa67134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_25.asset using Guid(2e8437fcecc5b7145bb1a9c97fa67134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435ae846b1b96cd11a6990cfdde7fc6a') in 0.030467 seconds 
+  Import took 0.035451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_9.asset
+  artifactKey: Guid(7684c26680f26b14f96f821498e19935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_9.asset using Guid(7684c26680f26b14f96f821498e19935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6458f9d142d2849e537b4ca4b8cf49d') in 0.030609 seconds 
+  Import took 0.035848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_18.asset
+  artifactKey: Guid(b7bb0cde3c68e8847961cee195ec528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_18.asset using Guid(b7bb0cde3c68e8847961cee195ec528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2ff703a0f65a09e96a03f4fb0fa971') in 0.025908 seconds 
+  Import took 0.033273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_5.asset
+  artifactKey: Guid(6d44c3b9120ba574080d12e95ffcec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_5.asset using Guid(6d44c3b9120ba574080d12e95ffcec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8583af7d0b321c275899f24eb01487aa') in 0.064927 seconds 
+  Import took 0.076669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_16.asset
+  artifactKey: Guid(f52a874a13f218b4f897b0e5673b14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_16.asset using Guid(f52a874a13f218b4f897b0e5673b14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4849d4290710d13e9af7c841a8c8bb6a') in 0.047446 seconds 
+  Import took 0.057430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_7.asset
+  artifactKey: Guid(f48c5d2bc1c8c154eb20926cc703d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_7.asset using Guid(f48c5d2bc1c8c154eb20926cc703d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c891c09a92308deab5497243a4578') in 0.027117 seconds 
+  Import took 0.033567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_38.asset
+  artifactKey: Guid(0a41f07369cfdb44d87a1889deed33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_38.asset using Guid(0a41f07369cfdb44d87a1889deed33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9db31a9daa329eddf4bac16ed9c529e') in 0.028355 seconds 
+  Import took 0.037640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_31.asset
+  artifactKey: Guid(d0988f71e7d99cc4abada0fbefb3a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_31.asset using Guid(d0988f71e7d99cc4abada0fbefb3a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f094ff4864d22c4fbfb14fbe733c0f4') in 0.031795 seconds 
+  Import took 0.039005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_12.asset
+  artifactKey: Guid(c717e7f0af54af0469b47e01aa02365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_12.asset using Guid(c717e7f0af54af0469b47e01aa02365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51ccbde12d132dcaa67bc6f042239b6') in 0.028417 seconds 
+  Import took 0.034491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_19.asset
+  artifactKey: Guid(54dfc94cd903d2041abc172e514072dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_19.asset using Guid(54dfc94cd903d2041abc172e514072dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd58e761d9f3ffafd718fe0c428bc236') in 0.028904 seconds 
+  Import took 0.035159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_30.asset
+  artifactKey: Guid(12c5a0d12dac2f54d930b227f486ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_30.asset using Guid(12c5a0d12dac2f54d930b227f486ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd663a1cd396187f7ed3862bad1f626e3') in 0.026178 seconds 
+  Import took 0.032332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_26.asset
+  artifactKey: Guid(7d35fcabbdb39a947808e6b0731d2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_26.asset using Guid(7d35fcabbdb39a947808e6b0731d2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bee69f0b11431d73f9f62f13b92bfd7') in 0.032219 seconds 
+  Import took 0.037032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_43.asset
+  artifactKey: Guid(d118b7ff046ee7549ac7eee38c5c322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_43.asset using Guid(d118b7ff046ee7549ac7eee38c5c322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c2ed02f8207078e79577a6dc6499a') in 0.027763 seconds 
+  Import took 0.033993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.625037 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_23.asset
+  artifactKey: Guid(36753092ba17a0546b896764b451db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_23.asset using Guid(36753092ba17a0546b896764b451db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbffdc1e81bbd311ee4957db9d1b1289') in 0.021931 seconds 
+  Import took 0.026708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004546 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_23.asset
+  artifactKey: Guid(36753092ba17a0546b896764b451db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_23.asset using Guid(36753092ba17a0546b896764b451db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbffdc1e81bbd311ee4957db9d1b1289') in 0.011469 seconds 
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043350 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_22.asset
+  artifactKey: Guid(fcf2e4315a93c904a8e846a419850734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_22.asset using Guid(fcf2e4315a93c904a8e846a419850734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b609f26f34487ee8f9b7ca2f8b15d03') in 0.030734 seconds 
+  Import took 0.039338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107541 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_15.asset
+  artifactKey: Guid(98254e38591aa3a4f82e5dd72fd0e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_15.asset using Guid(98254e38591aa3a4f82e5dd72fd0e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afaa5b8f6ec8669166d014e04cd592') in 0.023989 seconds 
+  Import took 0.028909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.457147 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_14.asset
+  artifactKey: Guid(859eea6b6b01ff8459f0d77995bf1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_14.asset using Guid(859eea6b6b01ff8459f0d77995bf1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75f74a70fb9a5eccf84308092f1ac48') in 0.028003 seconds 
+  Import took 0.034203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/地形拼接/TX Tileset Stone Ground_13.asset
+  artifactKey: Guid(a864c2c4e2110c44b9ab9e2197034d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/TX Tileset Stone Ground_13.asset using Guid(a864c2c4e2110c44b9ab9e2197034d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067eda223387fb6234dcc13dfaafd6bb') in 0.027887 seconds 
+  Import took 0.036651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.257393 seconds.
+  path: Assets/圖片/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Texture/TX Tileset Stone Ground.png using Guid(5bc7fa3fa1b05c341a07fb7b57bb953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880a24479b9704818aca8b9c00be41e0') in 0.195611 seconds 
+  Import took 0.202196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 504.545110 seconds.
+  path: Assets/地形拼接/New Palette.prefab
+  artifactKey: Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形拼接/New Palette.prefab using Guid(6af929983d31f994896c63b2b95cd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408d2be6453c02ab246cae87887cbd5f') in 1.033421 seconds 
+  Import took 1.041194 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.559 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 3.207700 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.703200 ms  DeleteObjects: 0.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 3.802000 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.120800 ms MarkObjects: 3.113400 ms  DeleteObjects: 0.150200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 437.867446 seconds.
+  path: Assets/素材/pipo-nekonin003.png
+  artifactKey: Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin003.png using Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac475049786211fbc35e6a64a2c52e1') in 0.100612 seconds 
+  Import took 0.104846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.110799 seconds.
+  path: Assets/素材/pipo-nekonin003.png
+  artifactKey: Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin003.png using Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbce600201fb7d30b6d9443e21d9844') in 0.059262 seconds 
+  Import took 0.073816 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.538 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 4.135600 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.193400 ms MarkObjects: 3.109500 ms  DeleteObjects: 0.303000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.105964 seconds.
+  path: Assets/素材/pipo-nekonin003_6.controller
+  artifactKey: Guid(a8d90e7457d965148b30a09956acf744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin003_6.controller using Guid(a8d90e7457d965148b30a09956acf744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff92ef1ee7a9ca8db5a83ff3757b718') in 0.033376 seconds 
+  Import took 0.038992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001321 seconds.
+  path: Assets/素材/pipo-nekonin003_6.controller
+  artifactKey: Guid(a8d90e7457d965148b30a09956acf744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin003_6.controller using Guid(a8d90e7457d965148b30a09956acf744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff92ef1ee7a9ca8db5a83ff3757b718') in 0.006442 seconds 
+  Import took 0.012657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.224530 seconds.
+  path: Assets/場景/玩家.controller
+  artifactKey: Guid(c197ff2a05d131141901526834e45ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/玩家.controller using Guid(c197ff2a05d131141901526834e45ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76482621696d392b82c1aab85738f6c') in 1.036915 seconds 
+  Import took 1.047615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 3.097300 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.603800 ms  DeleteObjects: 0.132100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.454581 seconds.
+  path: Assets/素材/pipo-nekonin003.png
+  artifactKey: Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/素材/pipo-nekonin003.png using Guid(d3161e8e656322646a41453cc94f9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd39fea4d1acc31ba6f292f20445660') in 0.101188 seconds 
+  Import took 0.105571 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
