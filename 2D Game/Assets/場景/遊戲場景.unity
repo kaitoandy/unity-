@@ -1687,6 +1687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8922725292186909162, guid: 2d4c375747e26ed43aafb0ec5df95193, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4c375747e26ed43aafb0ec5df95193, type: 3}
 --- !u!1 &1347952630 stripped
@@ -1849,11 +1853,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f8f78a3a374987746b746b86db072d61, type: 3}
-    m_FontSize: 163
+    m_FontSize: 51
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 163
+    m_MinSize: 0
+    m_MaxSize: 251
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2298,7 +2302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1484175555
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6211,9 +6215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aniFinal: {fileID: 57029392}
-  textFinalTitla: {fileID: 0}
-  stringWin: "\u4F60\u5DF2\u6BBA\u5149\u6240\u6709\u602A\u7269...\n \u53EF\u4EE5\u7E7C\u7E8C\u524D\u9032"
-  stringLose: "\u6311\u6230\u5931\u6557....\n \u91CD\u65B0\u518D\u4F86\u4E00\u6B21...."
+  textFinalTitla: {fileID: 1358402441}
+  stringWin: "\u4F60\u5DF2\u6BBA\u5149\u6240\u6709\u602A\u7269...\n\u53EF\u4EE5\u7E7C\u7E8C\u524D\u9032"
+  stringLose: "\u6311\u6230\u5931\u6557....\n\u91CD\u65B0\u518D\u4F86\u4E00\u6B21...."
   kcReplay: 114
   kcQuitGame: 113
 --- !u!4 &1673742315
@@ -6409,7 +6413,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   soundjump: {fileID: 8300000, guid: 487e2aac39b4e2641b629f74c6c8dc5f, type: 3}
   soundattack: {fileID: 8300000, guid: 432aa855ab9a20744958e6fe7e149194, type: 3}

@@ -329,11 +329,15 @@ public class BaseEnemy : MonoBehaviour
         enabled = false;
 
     }
-
+    /// <summary>
+    /// 死後掉落道具的方法.機率性掉落
+    /// </summary>
     private void Dropprop()
     {
         if(Random.value <= propProbability)
         {
+            //生成(物件 座標 角度)
+            // Quaternion.identity 零角度 = Vector3.zero
             Instantiate(goProp, transform.position + Vector3.up * 1.5f, Quaternion.identity);
         }
     } 

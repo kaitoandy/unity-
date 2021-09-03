@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     [Header("死亡事件")]
     public UnityEvent onDead;
+
     [Header("音效")]
     public AudioClip soundjump;
     public AudioClip soundattack;
@@ -148,7 +149,7 @@ public class Player : MonoBehaviour
     /// </summary>
     private void TurnDirection()
     {
-        print("玩家按下右" + Input.GetKeyDown(KeyCode.D));
+        //print("玩家按下右" + Input.GetKeyDown(KeyCode.D));
 
         //如果按 D 就將角度設為(0,0,0)
         if (Input.GetKeyDown(KeyCode.D))
@@ -317,7 +318,7 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         goPropHit = collision.gameObject;
-        EatProp(collision.gameObject.name);
+        EatProp(collision.gameObject.tag);
 
     }
     #endregion

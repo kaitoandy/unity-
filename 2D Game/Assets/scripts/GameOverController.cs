@@ -13,12 +13,12 @@ public class GameOverController : MonoBehaviour
     [Header("結束標題")]
     public Text textFinalTitla;
     [Header("遊戲勝利與失敗文字")]
+   
     //字串內的換行 \n
-
     [TextArea(1, 3)]
-    public string stringWin = "你已殺光所有怪物...\n 可以繼續前進";
+    public string stringWin = "你已殺光所有怪物...\n可以繼續前進";
     [TextArea(1, 3)]
-    public string stringLose = "挑戰失敗....\n 重新再來一次吧....";
+    public string stringLose = "挑戰失敗....\n重新再來一次吧....";
 
     [Header("重新與離開按鈕")]
     public KeyCode kcReplay = KeyCode.R;
@@ -52,7 +52,7 @@ public class GameOverController : MonoBehaviour
     /// 2.啟動動畫 - 淡入
     /// 3.判斷勝利或失敗並更新標題
     /// </summary>
-    /// <param name="win"></param>
+    /// <param name="win">是否獲勝</param>
     public void ShowGameOverView(bool win)
     {
         isGameOver = true;
