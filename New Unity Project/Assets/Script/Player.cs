@@ -39,11 +39,40 @@ public class Player : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        Move();
     }
 
     private void FixedUpdate()
     {
         rig.MovePosition(rig.position + movement * speed * Time.fixedDeltaTime);
-   
+        
+
+
+    }
+
+    private void Move()
+    {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            ani.SetBool("往右走", true);
+        }
+        else ani.SetBool("往右走", false);
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            ani.SetBool("往左走", true);
+        }
+        else ani.SetBool("往左走", false);
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            ani.SetBool("往上走", true);
+        }
+        else ani.SetBool("往上走", false);
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ani.SetBool("往下走", true);
+        }
+        else ani.SetBool("往下走", false);
     }
 }
