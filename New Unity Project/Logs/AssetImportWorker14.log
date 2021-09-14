@@ -1,0 +1,762 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'zh' Physical Memory: 8108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+E:/unity/unity-/New Unity Project
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+59760
+Successfully changed project path to: E:/unity/unity-/New Unity Project
+E:/unity/unity-/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 1328.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity/unity-/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011312 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 195.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.946 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.029382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 230.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.169 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 7.409900 ms (FindLiveObjects: 0.479400 ms CreateObjectMapping: 0.230300 ms MarkObjects: 6.396100 ms  DeleteObjects: 0.300700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/圖片/Texture/Dungeon_Tileset 1.png
+  artifactKey: Guid(9f09a7ce3a1d2cf49ba3e76831df5cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/Texture/Dungeon_Tileset 1.png using Guid(9f09a7ce3a1d2cf49ba3e76831df5cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af422228b64dde46834d7ffb4b54d75a') in 1.820166 seconds 
+  Import took 1.837011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.165550 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdc8d8f889d845fb6a634767d3a9fda') in 0.077415 seconds 
+  Import took 0.087462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1715.901670 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903116c61a5a9891214902f930294177') in 0.112146 seconds 
+  Import took 0.122607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002057 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903116c61a5a9891214902f930294177') in 0.035293 seconds 
+  Import took 0.044095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.585349 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148ed3c958646edacaeab50c4e5ffb59') in 0.043462 seconds 
+  Import took 0.056203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.656864 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15289fe1c94270a9b8dd8da187f440f2') in 0.038740 seconds 
+  Import took 0.049858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.261962 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ad9eba130c3ae68a5a8d33f0e00ce') in 0.040421 seconds 
+  Import took 0.054453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.444235 seconds.
+  path: Assets/預製物/walls/Wall_FOUR.prefab
+  artifactKey: Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_FOUR.prefab using Guid(7965e3e60b823d249bcc6c52cf262c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1486d6e68ef50b9c331030827d8ef5b') in 0.039927 seconds 
+  Import took 0.048737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.444837 seconds.
+  path: Assets/Script/Room.cs
+  artifactKey: Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Room.cs using Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162fec914966f51263c989f68adcd270') in 0.032563 seconds 
+  Import took 0.039798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.676300 seconds.
+  path: Assets/Script/Room.cs
+  artifactKey: Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Room.cs using Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737b2df9455ed95f1eedbc8e79dc3097') in 0.138507 seconds 
+  Import took 0.166523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.069644 seconds.
+  path: Assets/Script/Room.cs
+  artifactKey: Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Room.cs using Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae193977d895cd012c07e5761cb60a27') in 0.045642 seconds 
+  Import took 0.062137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003520 seconds.
+  path: Assets/Script/Room.cs
+  artifactKey: Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Room.cs using Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae193977d895cd012c07e5761cb60a27') in 0.026153 seconds 
+  Import took 0.044467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.105807 seconds.
+  path: Assets/Script/Room.cs
+  artifactKey: Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Room.cs using Guid(5563d2e6aab436b449fe7ede7616694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c75f2c0baa40c56becc287fd92c2fff') in 0.123445 seconds 
+  Import took 0.179336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.694156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 6.786600 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.209200 ms MarkObjects: 5.873700 ms  DeleteObjects: 0.252400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.840032 seconds.
+  path: Assets/預製物/walls/Wall_D.prefab
+  artifactKey: Guid(0f1abc424c3e5094eb1aa5a4828cfaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_D.prefab using Guid(0f1abc424c3e5094eb1aa5a4828cfaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c2740808a22cbdfe339fab2f33cde2') in 0.232163 seconds 
+  Import took 0.245907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.654566 seconds.
+  path: Assets/預製物/walls/Wall_DL.prefab
+  artifactKey: Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DL.prefab using Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5bdd30cefa75783d2eb03f55915a62') in 0.061109 seconds 
+  Import took 0.074300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.081955 seconds.
+  path: Assets/預製物/walls/Wall_DL.prefab
+  artifactKey: Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DL.prefab using Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd56dbbe33978353547c2001a47370') in 0.053844 seconds 
+  Import took 0.068639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.492273 seconds.
+  path: Assets/預製物/walls/Wall_DL.prefab
+  artifactKey: Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DL.prefab using Guid(2085ba0df76d9e0408fc08c42ac58a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf627e4dde6007d8b0c9d5b1eb9890d') in 0.025472 seconds 
+  Import took 0.041168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.729820 seconds.
+  path: Assets/預製物/walls/Wall_DLR.prefab
+  artifactKey: Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DLR.prefab using Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d53685526cfad22f99f304f2af74807') in 0.058912 seconds 
+  Import took 0.070868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.791834 seconds.
+  path: Assets/預製物/walls/Wall_DLR.prefab
+  artifactKey: Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DLR.prefab using Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343628960580bcef0759a09c3bddc95a') in 0.035716 seconds 
+  Import took 0.048199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.593631 seconds.
+  path: Assets/預製物/walls/Wall_DLR.prefab
+  artifactKey: Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DLR.prefab using Guid(e837c3bffbb445f46b8d1deb7061096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b78a216d247474d712a00ba99dcfd1') in 0.045831 seconds 
+  Import took 0.062710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.946357 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691bcadb395537c27f2df9c97d46a529') in 0.051900 seconds 
+  Import took 0.064330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.969272 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0b9a74f494ae53077789e46d25139e') in 0.032903 seconds 
+  Import took 0.045530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178308 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195f4d5651b2b1b39317a6e80ab9e4c0') in 0.034456 seconds 
+  Import took 0.043854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.606116 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f8ce7d851b1df153f01d795e87d245') in 0.045612 seconds 
+  Import took 0.060808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966139 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11eeb2e1d067156cfbef6074b2cdcc4') in 0.033782 seconds 
+  Import took 0.046771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.469541 seconds.
+  path: Assets/預製物/walls/Wall_DR.prefab
+  artifactKey: Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_DR.prefab using Guid(c9b05f69d89d62d4bb5aed626f900c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15268b2cfc4b6e634f5f903be9c7db') in 0.025915 seconds 
+  Import took 0.031896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.733136 seconds.
+  path: Assets/預製物/walls/Wall_L.prefab
+  artifactKey: Guid(7336840a7df8ee041beab1ec6bdc79ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_L.prefab using Guid(7336840a7df8ee041beab1ec6bdc79ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd2886338530c91f2d5c73e08631777') in 0.046927 seconds 
+  Import took 0.056745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.678695 seconds.
+  path: Assets/預製物/walls/Wall_L.prefab
+  artifactKey: Guid(7336840a7df8ee041beab1ec6bdc79ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_L.prefab using Guid(7336840a7df8ee041beab1ec6bdc79ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f7438368309a7bc293bfbd4c95d2a') in 0.025211 seconds 
+  Import took 0.030554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.163061 seconds.
+  path: Assets/預製物/walls/Wall_R.prefab
+  artifactKey: Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_R.prefab using Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f91c7950c986862bc3529ec54dea7a') in 0.048175 seconds 
+  Import took 0.057535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.969060 seconds.
+  path: Assets/預製物/walls/Wall_R.prefab
+  artifactKey: Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_R.prefab using Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4267fac4a7742bbddc44d11dff94655d') in 0.028756 seconds 
+  Import took 0.039406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800599 seconds.
+  path: Assets/預製物/walls/Wall_R.prefab
+  artifactKey: Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_R.prefab using Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7cc5db6d14c6ccca1a35daa22136e5') in 0.037176 seconds 
+  Import took 0.046566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.652932 seconds.
+  path: Assets/預製物/walls/Wall_R.prefab
+  artifactKey: Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_R.prefab using Guid(61ee13159e42c9e4fa5ffbb038c06ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1b7542aa8300151d1bb71f59d4e684') in 0.022944 seconds 
+  Import took 0.032508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.646791 seconds.
+  path: Assets/預製物/walls/Wall_RL.prefab
+  artifactKey: Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_RL.prefab using Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42d5d3a29090de8a5f8bb52fa96a5f') in 0.049549 seconds 
+  Import took 0.057566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.549198 seconds.
+  path: Assets/預製物/walls/Wall_RL.prefab
+  artifactKey: Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_RL.prefab using Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f353aabc88f062e7d70ac51e657c8c0d') in 0.038831 seconds 
+  Import took 0.044719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.015981 seconds.
+  path: Assets/預製物/walls/Wall_RL.prefab
+  artifactKey: Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_RL.prefab using Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a490699a985ea6c9ccb3e205e45650f3') in 0.031920 seconds 
+  Import took 0.044617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.771622 seconds.
+  path: Assets/預製物/walls/Wall_RL.prefab
+  artifactKey: Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_RL.prefab using Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a42036c467cd305b06c675a62a76fd3') in 0.038755 seconds 
+  Import took 0.050647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.190656 seconds.
+  path: Assets/預製物/walls/Wall_RL.prefab
+  artifactKey: Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_RL.prefab using Guid(782d101daf82d5e4985769fca02a10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee025e64fefdeabcca1133f7a9a875a') in 0.035669 seconds 
+  Import took 0.047337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.175897 seconds.
+  path: Assets/預製物/walls/Wall_U.prefab
+  artifactKey: Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_U.prefab using Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d4fe3bc30a8a443ba88fe787c9ecc') in 0.055711 seconds 
+  Import took 0.135920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.588623 seconds.
+  path: Assets/預製物/walls/Wall_U.prefab
+  artifactKey: Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_U.prefab using Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e57132d8b451b39c5f033cde269a74') in 0.027640 seconds 
+  Import took 0.063050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.321225 seconds.
+  path: Assets/預製物/walls/Wall_U.prefab
+  artifactKey: Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_U.prefab using Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a43696721a3a26aeb247a66b434a70a') in 0.041934 seconds 
+  Import took 0.092694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.573350 seconds.
+  path: Assets/預製物/walls/Wall_U.prefab
+  artifactKey: Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_U.prefab using Guid(80b1baa4c9c010a4d9c505ef9b2d30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7062f6320365dd5e8173a0b1400d2a36') in 0.022661 seconds 
+  Import took 0.031161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.768445 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf5eccabe3b7d7418256ce696c25d9b') in 0.043851 seconds 
+  Import took 0.053632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.161501 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d856f91931e6784451cdac6bf6ef24') in 0.035356 seconds 
+  Import took 0.044245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797436 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311f4b625fcc015515b1c08de7134c05') in 0.027797 seconds 
+  Import took 0.035247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213747 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e396f99962da4804d6a6d38d2a6e4e') in 0.031151 seconds 
+  Import took 0.038449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.977186 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42fe0e25979555753539f37412dcf5') in 0.036882 seconds 
+  Import took 0.045141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006353 seconds.
+  path: Assets/預製物/walls/Wall_UD.prefab
+  artifactKey: Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UD.prefab using Guid(426f057336f6879408d12c9390239fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb42fe0e25979555753539f37412dcf5') in 0.034755 seconds 
+  Import took 0.041441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.303753 seconds.
+  path: Assets/預製物/walls/Wall_UL.prefab
+  artifactKey: Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UL.prefab using Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb25ff8a3225c0772785f3d67e231a2') in 0.051669 seconds 
+  Import took 0.063413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.929206 seconds.
+  path: Assets/預製物/walls/Wall_UL.prefab
+  artifactKey: Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UL.prefab using Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0398b440a262f2eb16761b1745ae3') in 0.032853 seconds 
+  Import took 0.042116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.597281 seconds.
+  path: Assets/預製物/walls/Wall_UL.prefab
+  artifactKey: Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UL.prefab using Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4435214cf551b20e79bc6c71bd752a') in 0.030693 seconds 
+  Import took 0.040891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.010637 seconds.
+  path: Assets/預製物/walls/Wall_UL.prefab
+  artifactKey: Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UL.prefab using Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3087ff2f3af46af348ed0128a4ca77') in 0.037339 seconds 
+  Import took 0.048264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.386767 seconds.
+  path: Assets/預製物/walls/Wall_UL.prefab
+  artifactKey: Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UL.prefab using Guid(bcaf3f8fb11d17b4a900f1f2a14ce386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15acb2ef7542a6187927481d2d0a500') in 0.021819 seconds 
+  Import took 0.031416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.822110 seconds.
+  path: Assets/預製物/walls/Wall_ULD.prefab
+  artifactKey: Guid(c2164c0ebf32ba14b92302015b363821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_ULD.prefab using Guid(c2164c0ebf32ba14b92302015b363821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87301d66a009099c847cfa859bfde1c') in 0.047937 seconds 
+  Import took 0.057942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.846449 seconds.
+  path: Assets/預製物/walls/Wall_ULD.prefab
+  artifactKey: Guid(c2164c0ebf32ba14b92302015b363821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_ULD.prefab using Guid(c2164c0ebf32ba14b92302015b363821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590ec911b3111b081b6a1881ad28dee8') in 0.022920 seconds 
+  Import took 0.029598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.250513 seconds.
+  path: Assets/預製物/walls/Wall_UR.prefab
+  artifactKey: Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UR.prefab using Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d778cb2b51223c98a0cff2d8da0c94') in 0.066265 seconds 
+  Import took 0.077310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.725927 seconds.
+  path: Assets/預製物/walls/Wall_UR.prefab
+  artifactKey: Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UR.prefab using Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9318c5878446f9091594f7ece33b321') in 0.036706 seconds 
+  Import took 0.046791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604010 seconds.
+  path: Assets/預製物/walls/Wall_UR.prefab
+  artifactKey: Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UR.prefab using Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6e1492775b5634eba40bbfc51364b1') in 0.036659 seconds 
+  Import took 0.042583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.938159 seconds.
+  path: Assets/預製物/walls/Wall_UR.prefab
+  artifactKey: Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_UR.prefab using Guid(b04d199608aa8ad44b7c1c70ba2a41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808e1ed84aa6d712427f730ecb2ff1da') in 0.022457 seconds 
+  Import took 0.032463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.270222 seconds.
+  path: Assets/預製物/walls/Wall_URD.prefab
+  artifactKey: Guid(b8125611155396d4883a2ee90a8a4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_URD.prefab using Guid(b8125611155396d4883a2ee90a8a4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e834b911046568ea0812e2343dbead') in 0.059318 seconds 
+  Import took 0.064474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.019571 seconds.
+  path: Assets/預製物/walls/Wall_URD.prefab
+  artifactKey: Guid(b8125611155396d4883a2ee90a8a4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_URD.prefab using Guid(b8125611155396d4883a2ee90a8a4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b40e420f0084c03ef66eee668a1e94a') in 0.024344 seconds 
+  Import took 0.033142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.591811 seconds.
+  path: Assets/預製物/walls/Wall_URL.prefab
+  artifactKey: Guid(d80d84be6a6e46d4b8282bc6db2acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_URL.prefab using Guid(d80d84be6a6e46d4b8282bc6db2acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326be43cf4f623e02668e76023fec2bd') in 0.045341 seconds 
+  Import took 0.053041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.975157 seconds.
+  path: Assets/預製物/walls/Wall_URL.prefab
+  artifactKey: Guid(d80d84be6a6e46d4b8282bc6db2acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預製物/walls/Wall_URL.prefab using Guid(d80d84be6a6e46d4b8282bc6db2acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb89c7bb01a3104aa1bb18470d2bbe0b') in 0.025659 seconds 
+  Import took 0.039100 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.420096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 5.552400 ms (FindLiveObjects: 0.483000 ms CreateObjectMapping: 0.227000 ms MarkObjects: 4.588200 ms  DeleteObjects: 0.251900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.381 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 10.102000 ms (FindLiveObjects: 0.484900 ms CreateObjectMapping: 0.304800 ms MarkObjects: 8.918400 ms  DeleteObjects: 0.388600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 4.657500 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.163600 ms MarkObjects: 3.896900 ms  DeleteObjects: 0.207000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.396 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 5.440900 ms (FindLiveObjects: 0.460600 ms CreateObjectMapping: 0.212500 ms MarkObjects: 4.514700 ms  DeleteObjects: 0.250300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.208 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 109.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 10.988600 ms (FindLiveObjects: 0.665700 ms CreateObjectMapping: 0.335200 ms MarkObjects: 9.548400 ms  DeleteObjects: 0.433600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
