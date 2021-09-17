@@ -65,17 +65,18 @@ public class RoomGenerator : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKeyDown)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+       // if (Input.anyKeyDown)
+       // {
+       //     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+       // }
     }
 
     public void ChangePointPosition()
     {
+
+        
         do
         {
-
             direction = (Direction)Random.Range(0, 4);
 
             switch (direction)
