@@ -33,7 +33,10 @@ public class DialogueSystem : MonoBehaviour
     private AudioSource aud;
 
     [Header("打字音量"), Range(0, 2)]
-    public float volume = 1; 
+    public float volume = 1;
+
+    [Header("任務管理器")]
+    public MissionManager missionManager;
 
 
     private void Start()
@@ -83,7 +86,12 @@ public class DialogueSystem : MonoBehaviour
             textContent.text = "";                                    //玩家按下空白鍵後清空內容
             goFinishIcon.SetActive(false);                            //關閉完成圖示
 
-            if (i == date.dialogueContents.Length - 1) groupDialogue.alpha = 0;
+            if (i == date.dialogueContents.Length - 1)
+            {
+                groupDialogue.alpha = 0;
+                missionManager.ChangeStateToMissionning();
+            }
+
         }
     }
 }
