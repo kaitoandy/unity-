@@ -11,7 +11,19 @@ public class TransformSystem : MonoBehaviour
     public GameObject goTransformAfter;
 
     public vThirdPersonCamera cam;
+
+    // 靜態資料特性
+    // 1.不會顯示在資料面板
+    // 2.切換場景不會還原
+    // 3.存取方式 類別.靜態資料名稱
+    /// <summary>
+    /// 是否變身
+    /// </summary>
+    public static bool isTransform;
     #endregion
+
+
+
 
     #region 欄位:私人
     #endregion
@@ -34,6 +46,21 @@ public class TransformSystem : MonoBehaviour
         //按下R鍵 變身前後模型顯示狀態與原本顛倒
         if (Input.GetKeyDown(KeyCode.R))
         {
+
+            isTransform = !isTransform;
+
+            if (!goTransformBefore.activeInHierarchy)
+            {
+                goTransformBefore.transform.position = goTransformAfter.transform.position;
+                goTransformBefore.transform.eulerAngles = goTransformAfter.transform.eulerAngles;
+            }
+            else if (!goTransformAfter.activeInHierarchy)
+            {
+                goTransformAfter.transform.position = goTransformBefore.transform.position;
+                goTransformAfter.transform.eulerAngles = goTransformBefore.transform.eulerAngles;
+            }
+
+
             goTransformBefore.SetActive(!goTransformBefore.activeInHierarchy);
             goTransformAfter.SetActive(!goTransformAfter.activeInHierarchy);
 
@@ -42,9 +69,7 @@ public class TransformSystem : MonoBehaviour
             if (goTransformBefore.activeInHierarchy) cam.SetTarget(goTransformBefore.transform);
             else if (goTransformAfter.activeInHierarchy) cam.SetTarget(goTransformAfter.transform);
 
-            //同步座標
-            //goTransformBefore.transform.position = goTransformAfter.transform.position;
-            // goTransformAfter.transform.position = goTransformBefore.transform.position;
+            
 
         }
 

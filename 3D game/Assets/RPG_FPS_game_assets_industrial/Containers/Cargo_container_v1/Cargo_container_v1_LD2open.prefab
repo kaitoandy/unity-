@@ -16,8 +16,8 @@ GameObject:
   m_Name: Cargo_container_v1_LD2open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4000013876160986
 Transform:
@@ -112,8 +112,8 @@ GameObject:
   m_Name: Cargo_container_v1_LD2doorL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4000013301082504
 Transform:
@@ -207,8 +207,8 @@ GameObject:
   m_Name: Cargo_container_v1_LD2doorR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4000012328629498
 Transform:

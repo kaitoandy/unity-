@@ -8,7 +8,7 @@ public class AttackSystem : MonoBehaviour
     #region 欄位:公開
     [Header("參數名稱")]
     public string parAttackPart = "普攻段數";
-    public string parAttackGather = "集氣攻擊";
+    public string parAttackGather = "普攻集氣";
     [Header("連擊間隔時間"), Range(0, 2)]
     public float[] intervalBetweenAttackPart = { 0.4f, 0.5f, 0.9f };
     [Header("擊氣時間"), Range(0, 2)]
@@ -40,7 +40,7 @@ public class AttackSystem : MonoBehaviour
     //喚醒事件:遊戲播放後以及Start執行之前執行一次
     private void Awake()
     {
-        ani.GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
     //開始事件:遊戲播放之後以及Awake執行之後執行一次
@@ -62,6 +62,20 @@ public class AttackSystem : MonoBehaviour
     /// </summary>
     private void ClickTime()
     {
+        //變身後.攻擊模式為變身攻擊
+        //取得其他腳本資訊的資料
+        //1. bool isTransform = GameObject.Find("變身系統").GetComponent<TransformSystem>().isTransform;
+        //2. 將要取得資料改為靜態
+         bool isTransform = TransformSystem.isTransform;
+
+        if (isTransform && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            ani.SetTrigger("變身後攻擊");
+            return;
+        }
+
+
+
         if (Input.GetKeyDown(KeyCode.Mouse0))                                 //按住左鍵
         {
             timerAttackGather += Time.deltaTime;                              //累加 計時器集氣
