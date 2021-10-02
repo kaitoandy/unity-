@@ -17,6 +17,10 @@ public class DialogueData : ScriptableObject
     public string dialogueTalkerName;
     [Header("對話內容") ,TextArea(2,5)]
     public string[] dialogueContents;
+    [Header("此對話任務的需求量"), Range(0, 100)]
+    public float coundNeed = 2;
+    [Header("結束內容"), TextArea(2, 5)]
+    public string[] dialogueContentsFinish;
 
 
 }
