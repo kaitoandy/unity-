@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 5ac21270d2ffdaa44ad6f954bd5392f8
+guid: 3578e93d17f96884bb4ebf2cf6ea7213
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3664100175621683908
-    second: Ghost001-03_0
+      213: -5658225943465718842
+    second: Enemy 05-1_0
   - first:
-      213: 5949251629991754497
-    second: Ghost001-03_1
+      213: -3996380741064009452
+    second: Enemy 05-1_1
   - first:
-      213: -6372833672143267551
-    second: Ghost001-03_2
+      213: -3973717852355273514
+    second: Enemy 05-1_2
   - first:
-      213: 4495506522188423301
-    second: Ghost001-03_3
+      213: 472772633297627223
+    second: Enemy 05-1_3
   - first:
-      213: -6350832019737827071
-    second: Ghost001-03_4
+      213: 1739719059951300838
+    second: Enemy 05-1_4
   - first:
-      213: 3343147055101091161
-    second: Ghost001-03_5
+      213: -3536843307307192693
+    second: Enemy 05-1_5
   - first:
-      213: 3592067736783111284
-    second: Ghost001-03_6
+      213: -699699910019609486
+    second: Enemy 05-1_6
   - first:
-      213: 825527534336016283
-    second: Ghost001-03_7
+      213: 7626530897533752637
+    second: Enemy 05-1_7
   - first:
-      213: -7913600774142684998
-    second: Ghost001-03_8
+      213: -8676524108184989063
+    second: Enemy 05-1_8
   - first:
-      213: 9024734872372908757
-    second: Ghost001-03_9
+      213: 4791835465993226656
+    second: Enemy 05-1_9
   - first:
-      213: -1408895646702041639
-    second: Ghost001-03_10
+      213: 6326107592370345912
+    second: Enemy 05-1_10
   - first:
-      213: 4711758488648479188
-    second: Ghost001-03_11
+      213: -7062376039845521955
+    second: Enemy 05-1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost001-03_0
+      name: Enemy 05-1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca706d42bf79d230800000000000000
-      internalID: 3664100175621683908
+      spriteID: 6cb83d4ab71f971b0800000000000000
+      internalID: -5658225943465718842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_1
+      name: Enemy 05-1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -162,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b721546dcff8250800000000000000
-      internalID: 5949251629991754497
+      spriteID: 419daa5c3e00a88c0800000000000000
+      internalID: -3996380741064009452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_2
+      name: Enemy 05-1_2
       rect:
         serializedVersion: 2
         x: 64
@@ -183,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12990473a852f87a0800000000000000
-      internalID: -6372833672143267551
+      spriteID: 6dc5cbcbaa48ad8c0800000000000000
+      internalID: -3973717852355273514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_3
+      name: Enemy 05-1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5802e7c1d5f336e30800000000000000
-      internalID: 4495506522188423301
+      spriteID: 7582b338430af8600800000000000000
+      internalID: 472772633297627223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_4
+      name: Enemy 05-1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 109a95b1def4dd7a0800000000000000
-      internalID: -6350832019737827071
+      spriteID: 6e0bf518449b42810800000000000000
+      internalID: 1739719059951300838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_5
+      name: Enemy 05-1_5
       rect:
         serializedVersion: 2
         x: 64
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d913ba88e356e20800000000000000
-      internalID: 3343147055101091161
+      spriteID: b8eacb140cb9aeec0800000000000000
+      internalID: -3536843307307192693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_6
+      name: Enemy 05-1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -267,14 +267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4744914339699d130800000000000000
-      internalID: 3592067736783111284
+      spriteID: 27c88e593aa2a46f0800000000000000
+      internalID: -699699910019609486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_7
+      name: Enemy 05-1_7
       rect:
         serializedVersion: 2
         x: 32
@@ -288,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9ff66c2becd47b00800000000000000
-      internalID: 825527534336016283
+      spriteID: d355a08b171e6d960800000000000000
+      internalID: 7626530897533752637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_8
+      name: Enemy 05-1_8
       rect:
         serializedVersion: 2
         x: 64
@@ -309,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab018f2260e3d2290800000000000000
-      internalID: -7913600774142684998
+      spriteID: 97255863b4bc69780800000000000000
+      internalID: -8676524108184989063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_9
+      name: Enemy 05-1_9
       rect:
         serializedVersion: 2
         x: 0
@@ -330,14 +330,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d21ed32d8c4e3d70800000000000000
-      internalID: 9024734872372908757
+      spriteID: 0a905a4d7f4008240800000000000000
+      internalID: 4791835465993226656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_10
+      name: Enemy 05-1_10
       rect:
         serializedVersion: 2
         x: 32
@@ -351,14 +351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d50bbcbfd8927ce0800000000000000
-      internalID: -1408895646702041639
+      spriteID: 8b7d22e8659dac750800000000000000
+      internalID: 6326107592370345912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ghost001-03_11
+      name: Enemy 05-1_11
       rect:
         serializedVersion: 2
         x: 64
@@ -372,8 +372,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d1f257a167836140800000000000000
-      internalID: 4711758488648479188
+      spriteID: dd517cae8666dfd90800000000000000
+      internalID: -7062376039845521955
       vertices: []
       indices: 
       edges: []
