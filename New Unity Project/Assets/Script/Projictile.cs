@@ -13,7 +13,7 @@ public class Projictile : MonoBehaviour
 
     private void Update()
     {
-        attack();
+        
     }
 
     private void OnEnable()
@@ -32,36 +32,5 @@ public class Projictile : MonoBehaviour
         }
     }
 
-    private void attack()
-    {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            moveDirection.x = 1;  
-            transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-        }
-       
-
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            moveDirection.y = 1;
-            transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-        }
-       
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            moveDirection.y = -1;
-            transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-        }
-       
-
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            moveDirection.x = -1;
-            transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-        }
-       
-
-
-    }
+   
 }

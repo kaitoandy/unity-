@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Linq;
 /// <summary>
 /// 敵人基底
 /// </summary>
@@ -17,6 +17,21 @@ public class BaseEnemy : MonoBehaviour
     public Vector2 v2RandomWalk = new Vector2(3, 6);
 
     public Vector2 movement;
+
+    [Header("檢查前方物體")]
+    public Vector3 checkForwardOffest;
+    [Range(0, 1)]
+    public float checkForwardRadius;
+
+    public Collider2D[] hits;
+
+    public Collider2D[] hitsReault;
+
+    [Header("攻擊冷卻")]
+    public float cdAttack = 1;
+
+    [Header("第一次延遲攻擊"),Range(0.5f,5)]
+    public float attackDelayFirs = 0.5f;
 
 
 
@@ -37,9 +52,12 @@ public class BaseEnemy : MonoBehaviour
 
     //面板可以顯示私人欄位
     [SerializeField]
-    private StateEnemy state;
+    protected StateEnemy state;
 
-   
+    private float timerAttack;
+
+    protected Player player;
+
     #endregion
 
     #region 事件
@@ -50,14 +68,17 @@ public class BaseEnemy : MonoBehaviour
         ani = GetComponent<Animator>();
         aud = GetComponent<AudioSource>();
 
+        player = GameObject.Find("玩家").GetComponent<Player>();
+
         timeIdle = Random.Range(v2RandomIdle.x, v2RandomIdle.y);
     }
 
 
-    private void Update()
+    protected virtual void Update()
     {
-       
+        CheckForward();
         CheckState();
+
     }
 
     private void FixedUpdate()
@@ -68,14 +89,30 @@ public class BaseEnemy : MonoBehaviour
 
     }
 
-    
-        #endregion
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color(1, 0.3f, 0.3f, 0.3f);
+        Gizmos.DrawSphere(transform.position  + 
+            transform.right * checkForwardOffest.x +
+            transform.up * checkForwardOffest.y, checkForwardRadius);
+    }
 
-        #region 方法
-        /// <summary>
-        /// 檢查狀態
-        /// </summary>
-        private void CheckState()
+    private void CheckForward()
+    {
+         hits = Physics2D.OverlapCircleAll(transform.position +
+            transform.right * checkForwardOffest.x +
+            transform.up * checkForwardOffest.y, checkForwardRadius);
+
+        
+    }
+
+    #endregion
+
+    #region 方法
+    /// <summary>
+    /// 檢查狀態
+    /// </summary>
+    private void CheckState()
     {
         switch (state)
         {
@@ -97,14 +134,19 @@ public class BaseEnemy : MonoBehaviour
             case StateEnemy.track:
                 break;
             case StateEnemy.attack:
+                Attack();
                 break;
             case StateEnemy.dead:
+                Dead();
                 break;
             default:
                 break;
         }
     }
 
+    /// <summary>
+    /// 等待並進入隨機四方走路狀態
+    /// </summary>
     private void idle()
     {
         if (timerIdle < timeIdle )
@@ -160,6 +202,7 @@ public class BaseEnemy : MonoBehaviour
         }
     }
 
+    #region 隨機四方向走路
     private void walkRight()
     {
         if (timerWalk < timeWalk)
@@ -224,9 +267,11 @@ public class BaseEnemy : MonoBehaviour
             timerWalk = 0;
         }
     }
+    #endregion
 
-   
-
+    /// <summary>
+    /// 設定走路動畫
+    /// </summary>
     private void WalkInFixedUpdate()
     {
         if (state == StateEnemy.walkRight)
@@ -254,6 +299,29 @@ public class BaseEnemy : MonoBehaviour
         else ani.SetBool("往下走", false);
     }
 
+    
+   
+
+    private void Attack()
+    {
+        if (timerAttack < cdAttack)
+        {
+            timerAttack += Time.deltaTime;
+        }
+        else AttackMethod();
+    }
+
+    protected virtual void AttackMethod()
+    {
+        timerAttack = 0;
+
+    }
+
+    private void Dead()
+    {
+        HP = 0;
+        ani.SetBool("死亡開關", true);
+    }
 
     #endregion
 }

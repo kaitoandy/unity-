@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -8,6 +10,13 @@ public class Player : MonoBehaviour
     public float speed = 10.5f;
     [Header("血量"), Range(0, 500)]
     public float HP = 200;
+
+    [Header("位移")]
+    public Vector2 movement;
+
+    [Header("發射火球")]
+    public GameObject fire;
+    public float fireSpeed = 8f;
 
     #endregion
 
@@ -33,7 +42,6 @@ public class Player : MonoBehaviour
     private Animator ani;
 
     
-    public Vector2 movement;
     
 
     private float hValue;
@@ -60,6 +68,8 @@ public class Player : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         Move();
+        FireAttack();
+
     }
 
     private void FixedUpdate()
@@ -96,7 +106,35 @@ public class Player : MonoBehaviour
         else ani.SetBool("往下走", false);
     }
 
-    private void Hurt(float damage)
+    private void FireAttack()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Instantiate(fire, transform.position + Vector3.right * 1.5f , Quaternion.identity);
+            fire.transform.Translate(1, 0, 0 * fireSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Instantiate(fire, transform.position + Vector3.up * 1.5f , Quaternion.identity);
+            fire.transform.Translate(0, 1, 0 * fireSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKeyDown(KeyCode.K))
+            {
+                Instantiate(fire, transform.position + Vector3.down * 1.5f , Quaternion.identity);
+                fire.transform.Translate(-1, 0, 0 * fireSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKeyDown(KeyCode.J))
+            {
+                Instantiate(fire, transform.position + Vector3.left * 1.5f  , Quaternion.identity);
+                 
+            }
+        }
+
+    
+    public void Hurt(float damage)
     {
         HP -= damage;
 
@@ -107,10 +145,13 @@ public class Player : MonoBehaviour
 
     }
 
+
     private void Dead()
     {
         HP = 0;
         ani.SetBool("死亡開關", true);
+
+        enabled = false;
 
     }
 }
